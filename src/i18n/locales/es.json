@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "favorites": "Favoritos"
+  },
+  "categories": {
+    "text": "Herramientas de texto",
+    "datetime": "Fecha y hora",
+    "converter": "Conversores",
+    "dev": "Herramientas dev",
+    "calculator": "Calculadoras",
+    "games": "Juegos de equipo"
+  },
+  "favorites": {
+    "title": "Favoritos",
+    "subtitle": "Favorites",
+    "empty": "Haz clic en ☆ para\nagregar a favoritos"
+  },
+  "home": {
+    "hero_badge": "Herramientas esenciales para el trabajo",
+    "hero_title": "Herramientas online gratuitas\npara tu productividad",
+    "hero_desc": "Contador de palabras, calculadora de salario, juego de escalera\nmás de 30 herramientas en un solo lugar",
+    "search_placeholder": "Buscar herramientas... / Search tools... / 도구 검색",
+    "popular_tools": "Herramientas populares",
+    "all_categories": "Todas las categorías",
+    "game_banner_title": "¡Haz las reuniones divertidas con juegos!",
+    "game_banner_desc": "Juego de escalera, ruleta, divisor de equipos",
+    "game_banner_cta": "Ver juegos",
+    "view_all": "Ver todo"
+  },
+  "category": {
+    "tools_count": "herramientas",
+    "filter_all": "Todo",
+    "filter_popular": "🔥 Popular",
+    "filter_niche": "⭐ Nicho",
+    "filter_new": "🆕 Nuevo",
+    "no_results": "No hay herramientas que coincidan con este filtro."
+  },
+  "badges": {
+    "popular": "Popular",
+    "niche": "Nicho",
+    "new": "Nuevo"
+  },
+  "tools": {
+    "wordCounter":      { "name": "Contador de palabras",    "desc": "Conteo de caracteres en tiempo real" },
+    "caseConverter":    { "name": "Conversor de mayúsculas", "desc": "Convierte el caso del texto en inglés" },
+    "whitespace":       { "name": "Eliminador de espacios",  "desc": "Elimina espacios y saltos de línea" },
+    "emailFormatter":   { "name": "Formateador de email",    "desc": "Da formato a emails de negocios" },
+    "resumeFormatter":  { "name": "Formateador de CV",       "desc": "Estandariza el formato del CV" },
+    "meetingFormatter": { "name": "Notas de reunión",        "desc": "Formatea las notas de reunión" },
+    "dday":             { "name": "Calculadora D-Day",       "desc": "Cuenta días hasta tu fecha límite" },
+    "workHours":        { "name": "Calculadora de horas",    "desc": "Calcula horas de trabajo y horas extra" },
+    "timezone":         { "name": "Conversor de zonas",      "desc": "Coordina reuniones globales" },
+    "pto":              { "name": "Calculadora de vacaciones","desc": "Controla tus días de vacaciones" },
+    "qrGenerator":      { "name": "Generador de QR",         "desc": "Genera códigos QR para URLs, WiFi" },
+    "base64":           { "name": "Conversor Base64",        "desc": "Codifica/decodifica texto en Base64" },
+    "colorPalette":     { "name": "Paleta de colores",       "desc": "Convierte colores HEX, RGB, HSL" },
+    "passwordGen":      { "name": "Generador de contraseñas","desc": "Genera contraseñas seguras al instante" },
+    "jsonFormatter":    { "name": "Formateador JSON",        "desc": "Embellece, minifica y valida JSON" },
+    "envGenerator":     { "name": "Generador .env",          "desc": "Genera plantillas de archivo .env" },
+    "readmeBuilder":    { "name": "Constructor README",      "desc": "Construye README de GitHub" },
+    "cursorRules":      { "name": "Generador Cursor Rules",  "desc": "Genera reglas para asistente IA" },
+    "unixTimestamp":    { "name": "Timestamp Unix",          "desc": "Convierte timestamps Unix" },
+    "regexVisualizer":  { "name": "Visualizador Regex",      "desc": "Prueba patrones regex en tiempo real" },
+    "salary":           { "name": "Calculadora de salario",  "desc": "Salario neto después de impuestos" },
+    "overtime":         { "name": "Calculadora de horas extra","desc": "Calcula pago por horas extra" },
+    "raiseCalc":        { "name": "Calculadora de aumento",  "desc": "Compara salario antes/después del aumento" },
+    "dutchPay":         { "name": "Calculadora de gastos",   "desc": "Divide cuentas entre personas" },
+    "freelanceRate":    { "name": "Tarifa freelance",        "desc": "Calcula tarifa por hora/día/mes" },
+    "ladderGame":       { "name": "Juego de escalera",       "desc": "Herramienta de asignación aleatoria" },
+    "roulette":         { "name": "Ruleta",                  "desc": "Selector aleatorio para tareas" },
+    "teamSplitter":     { "name": "Divisor de equipos",      "desc": "Divide personas en equipos balanceados" },
+    "lunchPicker":      { "name": "Selector de almuerzo",    "desc": "Resuelve el dilema de qué comer" },
+    "luckyDraw":        { "name": "Sorteo afortunado",       "desc": "Sorteo de premios y eventos" },
+    "savingsCalc":      { "name": "Calculadora de ahorros",  "desc": "Calcula intereses y monto al vencimiento" },
+    "loanCalc":         { "name": "Calculadora de préstamos","desc": "Calcula cuotas y plan de amortización" },
+    "unitConverter":    { "name": "Conversor de unidades",   "desc": "Convierte longitud, peso, temp y área" },
+    "basicCalculator":  { "name": "Calculadora",             "desc": "Calculadora de operaciones básicas" }
+  },
+  "common": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "clear": "Limpiar",
+    "paste": "Pegar",
+    "download": "Descargar",
+    "reset": "Reiniciar",
+    "calculate": "Calcular",
+    "result": "Resultado",
+    "back": "Atrás",
+    "related_tools": "Herramientas relacionadas"
+  },
+  "games": {
+    "lunchPicker": {
+      "menuList": "Lista de menús",
+      "addPlaceholder": "Agregar menú",
+      "reset": "Restablecer",
+      "save": "Guardar menú",
+      "saved": "¡Guardado!",
+      "pick": "¡Elegir!",
+      "picking": "Eligiendo...",
+      "pickPrompt": "¡Pulsa el botón para elegir el almuerzo de hoy!",
+      "todaysLunch": "¡El almuerzo de hoy! 🎉",
+      "again": "Elegir de nuevo"
+    },
+    "roulette": {
+      "participants": "Participantes",
+      "namePlaceholder": "Ingresar nombre",
+      "reset": "Restablecer",
+      "save": "Guardar",
+      "saved": "¡Guardado!",
+      "spin": "¡Girar!",
+      "spinning": "Girando...",
+      "winner": "¡Ganador!"
+    },
+    "ladderGame": {
+      "count": "Participantes",
+      "participants": "Nombres",
+      "results": "Resultados",
+      "generate": "Generar escalera",
+      "revealAll": "Revelar todo",
+      "save": "Guardar",
+      "result": "Resultado",
+      "participantPlaceholder": "Participante",
+      "resultPlaceholder": "Resultado"
+    },
+    "teamSplitter": {
+      "participants": "Participantes",
+      "namePlaceholder": "Un nombre por línea",
+      "hint": "Separado por saltos · líneas vacías ignoradas",
+      "teamCount": "Equipos",
+      "split": "¡Dividir equipos!",
+      "reshuffle": "Mezclar de nuevo",
+      "copy": "Copiar resultado",
+      "copied": "¡Copiado!",
+      "prompt": "¡Haz clic en Dividir equipos para empezar!",
+      "team": "Equipo",
+      "members": "personas",
+      "save": "Guardar",
+      "saved": "¡Guardado!"
+    },
+    "luckyDraw": {
+      "participants": "Participantes",
+      "personUnit": "",
+      "hint": "Un nombre por línea",
+      "winnerCount": "Ganadores",
+      "draw": "¡Sortear!",
+      "drawing": "Sorteando...",
+      "announcement": "¡Ganadores anunciados!",
+      "rankUnit": "",
+      "prompt": "¡Pulsa el botón de sorteo!",
+      "redraw": "Sortear de nuevo",
+      "copyResult": "Copiar resultado",
+      "winnersLabel": "Ganadores"
+    }
+  },
+  "guide": {
+    "title": "Guía de uso",
+    "when": "Cuándo usarlo",
+    "tips": "Consejos",
+    "faq": "Preguntas frecuentes"
+  },
+  "text": {
+    "wordCounter": {
+      "chars": "Caracteres",
+      "words": "Palabras",
+      "sentences": "Oraciones",
+      "lines": "Líneas",
+      "placeholder": "Ingresa texto aquí...",
+      "snsGuide": "Guía de caracteres para redes sociales"
+    },
+    "caseConverter": {
+      "inputLabel": "Texto de entrada",
+      "placeholder": "Ingresa el texto a convertir...",
+      "selectMode": "Selecciona el formato",
+      "outputLabel": "Resultado",
+      "outputPlaceholder": "Selecciona un formato arriba"
+    },
+    "whitespace": {
+      "options": "Opciones",
+      "trimEdges": "Recortar bordes",
+      "trimEdgesDesc": "Elimina espacios al inicio y final de cada línea y del texto completo",
+      "collapseSpaces": "Reducir espacios",
+      "collapseSpacesDesc": "Combina espacios consecutivos en uno solo",
+      "removeEmpty": "Eliminar líneas vacías",
+      "removeEmptyDesc": "Elimina todas las líneas en blanco",
+      "tabsToSpaces": "Tabulador → Espacios",
+      "tabsToSpacesDesc": "Convierte tabuladores en 2 espacios",
+      "input": "Entrada",
+      "inputPlaceholder": "Pega el texto aquí...",
+      "output": "Resultado",
+      "outputPlaceholder": "El resultado aparecerá aquí",
+      "removedChars": "-{{count}} caracteres eliminados"
+    },
+    "emailFormatter": {
+      "original": "Original",
+      "inputPlaceholder": "Pega el contenido del email",
+      "format": "Formatear",
+      "result": "Resultado formateado"
+    },
+    "resumeFormatter": {
+      "original": "CV original",
+      "inputPlaceholder": "Pega el texto de tu CV",
+      "format": "Formatear",
+      "result": "Resultado formateado"
+    },
+    "meetingFormatter": {
+      "defaultTitle": "Acta de reunión",
+      "dateLabel": "Fecha",
+      "attendeesLabel": "Asistentes",
+      "agendaSection": "Agenda",
+      "notesSection": "Discusión",
+      "actionsSection": "Elementos de acción",
+      "titlePlaceholder": "Título de la reunión",
+      "attendeesPlaceholder": "Asistentes (separados por coma)",
+      "agendaPlaceholder": "Agenda (uno por línea)",
+      "notesPlaceholder": "Notas de la discusión",
+      "actionsPlaceholder": "Elementos de acción (uno por línea)",
+      "generate": "Generar acta",
+      "outputLabel": "Acta de reunión (Markdown)"
+    }
+  },
+  "datetime": {
+    "dday": {
+      "addNew": "Agregar nuevo D-Day",
+      "namePlaceholder": "Nombre del evento (ej: Inicio de trabajo, Aniversario)",
+      "add": "Agregar",
+      "errorName": "Por favor ingresa el nombre del evento.",
+      "errorDate": "Por favor selecciona una fecha.",
+      "empty": "Aún no hay D-Days. ¡Agrega un evento arriba!",
+      "pastDate": "fecha pasada",
+      "delete": "Eliminar",
+      "today": "Hoy"
+    },
+    "workHours": {
+      "days": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"],
+      "day1": "Día 1",
+      "totalHours": "Total horas",
+      "regularHours": "Regular",
+      "overtime": "Horas extra",
+      "overtimeLabel": "Extra",
+      "zeroHours": "0 h",
+      "hoursMinutes": "{{hh}}h {{mm}}m",
+      "hoursOnly": "{{hh}}h",
+      "start": "Entrada",
+      "end": "Salida",
+      "break": "Descanso",
+      "breakMin": "{{m}}m",
+      "addDay": "Agregar día",
+      "deleteDay": "Eliminar"
+    },
+    "timezone": {
+      "live": "En vivo",
+      "custom": "Personalizado",
+      "baseTime": "Hora base",
+      "hint": "Haz clic en una tarjeta para resaltarla. El modo en vivo se actualiza cada segundo.",
+      "cities": {
+        "seoul": "Seúl (KST)",
+        "tokyo": "Tokio (JST)",
+        "beijing": "Pekín (CST)",
+        "newYork": "Nueva York (ET)",
+        "london": "Londres (GMT/BST)",
+        "paris": "París (CET)",
+        "losAngeles": "Los Ángeles (PT)",
+        "sydney": "Sídney (AEDT)",
+        "singapore": "Singapur (SGT)",
+        "dubai": "Dubái (GST)"
+      }
+    },
+    "pto": {
+      "joinDate": "Fecha de ingreso",
+      "usedDays": "Días usados",
+      "extraDays": "Días extra",
+      "tenure": "{{years}} año(s) {{months}} mes(es) de antigüedad",
+      "totalPTO": "Vacaciones totales",
+      "usedPTO": "Vacaciones usadas",
+      "remainingPTO": "Vacaciones restantes",
+      "days": "{{count}} días"
+    }
+  },
+  "calculator": {
+    "dutchPay": {
+      "basicSettings": "Configuración básica",
+      "totalAmountSymbol": "Total ({{symbol}})",
+      "totalAmountSuffix": "Total ({{suffix}})",
+      "baseParticipants": "Participantes base",
+      "individualAdjustments": "Ajustes individuales",
+      "add": "Agregar",
+      "addHint": "Agrega a alguien con una parte diferente",
+      "namePlaceholder": "Nombre",
+      "extra": "+ Extra",
+      "totalAmount": "Total",
+      "splitDetails": "Detalles",
+      "copyResult": "Copiar resultado"
+    },
+    "overtimeCalc": {
+      "regularHours": "Horas normales",
+      "basicPay": "Salario base",
+      "total": "Total"
+    },
+    "raiseCalc": {
+      "annualSalary": "Salario anual actual",
+      "annualSalarySymbol": "Salario anual ({{symbol}})",
+      "raiseRate": "Aumento (%)",
+      "before": "Antes",
+      "after": "Después",
+      "perMonthNet": "/mes",
+      "annual": "Anual",
+      "monthlyNetDiff": "Diferencia mensual"
+    },
+    "freelanceRate": {
+      "monthlyTargetSymbol": "Objetivo mensual ({{symbol}})",
+      "monthlyTargetSuffix": "Objetivo mensual ({{suffix}})",
+      "workingDays": "Días de trabajo / mes",
+      "workingHours": "Horas de trabajo / día",
+      "monthlyGross": "Mensual (bruto)",
+      "dailyRate": "Tarifa diaria",
+      "hourlyRate": "Tarifa por hora",
+      "monthlyAfterTax": "Mensual (neto)"
+    },
+    "savingsCalc": {
+      "inputTitle": "Información del producto",
+      "productType": "Tipo de producto",
+      "installment": "Ahorro por cuotas",
+      "deposit": "Depósito a plazo",
+      "interestType": "Tipo de interés",
+      "simple": "Simple",
+      "compound": "Compuesto",
+      "principalLabel": "Capital inicial",
+      "monthlyDepositLabel": "Cuota mensual",
+      "annualRate": "Tasa anual (%)",
+      "period": "Plazo",
+      "periodYear": "{{n}} año(s)",
+      "periodMonth": "{{n}} mes(es)",
+      "currencyUnit": "",
+      "afterTaxMaturity": "Importe al vencimiento (neto)",
+      "beforeTax": "Antes de impuestos",
+      "totalPrincipal": "Capital total",
+      "interestEarned": "Intereses ganados",
+      "interestTax": "Impuesto sobre intereses (19%)",
+      "afterTaxAmount": "Importe neto",
+      "taxNote": "※ Impuesto sobre intereses aplicado. Consulta tu entidad para exenciones.",
+      "emptyPrompt": "Ingresa los datos y\npulsa Calcular"
+    },
+    "loanCalc": {
+      "inputTitle": "Información del préstamo",
+      "repayType": "Tipo de amortización",
+      "equalInstallment": "Cuota fija",
+      "equalPrincipal": "Principal fijo",
+      "loanAmountLabel": "Importe del préstamo",
+      "billionUnit": " millones",
+      "annualRate": "Tasa anual (%)",
+      "loanPeriod": "Plazo",
+      "periodYear": "{{n}} año(s)",
+      "periodMonth": "{{n}} mes(es)",
+      "currencyUnit": "",
+      "monthlyPaymentEqual": "Cuota mensual (fija)",
+      "firstMonthPayment": "Primera cuota",
+      "loanPrincipal": "Capital prestado",
+      "totalInterest": "Intereses totales",
+      "totalRepayment": "Total a devolver",
+      "showSchedule": "▼ Ver amortización",
+      "hideSchedule": "▲ Ocultar amortización",
+      "scheduleMonth": "Mes",
+      "schedulePayment": "Cuota",
+      "schedulePrincipal": "Principal",
+      "scheduleInterest": "Interés",
+      "scheduleBalance": "Saldo",
+      "disclaimer": "※ Las condiciones reales pueden variar según el producto financiero.",
+      "emptyPrompt": "Ingresa los datos y\npulsa Calcular"
+    },
+    "basicCalc": {
+      "divByZero": "No se puede dividir por cero",
+      "backspace": "Borrar",
+      "history": "Historial",
+      "historyEmpty": "Los resultados aparecerán aquí"
+    }
+  },
+  "fortune": {
+    "title": "Horóscopo del día",
+    "subtitle": "Horóscopo chino",
+    "inputLabel": "Año de nacimiento",
+    "inputPlaceholder": "ej. 1990",
+    "save": "Guardar",
+    "today": "Fortuna de hoy",
+    "weekly": "Fortuna semanal",
+    "monthly": "Fortuna mensual",
+    "overall": "General",
+    "work": "Trabajo",
+    "money": "Dinero",
+    "relations": "Relaciones",
+    "animals": {
+      "rat": "Rata", "ox": "Buey", "tiger": "Tigre", "rabbit": "Conejo",
+      "dragon": "Dragón", "snake": "Serpiente", "horse": "Caballo", "goat": "Cabra",
+      "monkey": "Mono", "rooster": "Gallo", "dog": "Perro", "pig": "Cerdo"
+    }
+  }
+}

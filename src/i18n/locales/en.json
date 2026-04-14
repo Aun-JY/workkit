@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "Home",
+    "favorites": "Favorites"
+  },
+  "categories": {
+    "text": "Text Tools",
+    "datetime": "Date & Time",
+    "converter": "Converters",
+    "dev": "Dev Tools",
+    "calculator": "Calculators",
+    "games": "Team Games"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "subtitle": "즐겨찾기",
+    "empty": "Click ☆ to add\ntools to favorites"
+  },
+  "home": {
+    "hero_badge": "Essential tools for office workers",
+    "hero_title": "Free Online Tools to\nBoost Your Productivity",
+    "hero_desc": "Word counter, salary calculator, ladder game\n— 30+ work tools in one place",
+    "search_placeholder": "Search tools... / 도구 검색... / ツール検索",
+    "popular_tools": "Popular Tools",
+    "all_categories": "All Categories",
+    "game_banner_title": "Make Meetings Fun with Team Games!",
+    "game_banner_desc": "Ladder Game, Roulette, Team Splitter — team building tools",
+    "game_banner_cta": "Browse Games",
+    "view_all": "View All"
+  },
+  "category": {
+    "tools_count": "tools",
+    "filter_all": "All",
+    "filter_popular": "🔥 Popular",
+    "filter_niche": "⭐ Niche",
+    "filter_new": "🆕 New",
+    "no_results": "No tools match this filter."
+  },
+  "badges": {
+    "popular": "Popular",
+    "niche": "Niche",
+    "new": "New"
+  },
+  "tools": {
+    "wordCounter":      { "name": "Word Counter",           "desc": "Real-time character & word count" },
+    "caseConverter":    { "name": "Case Converter",         "desc": "Convert text to any case format" },
+    "whitespace":       { "name": "Whitespace Remover",     "desc": "Remove extra spaces and line breaks" },
+    "emailFormatter":   { "name": "Email Formatter",        "desc": "Format professional business emails" },
+    "resumeFormatter":  { "name": "Resume Formatter",       "desc": "Standardize resume text format" },
+    "meetingFormatter": { "name": "Meeting Notes",          "desc": "Format meeting notes cleanly" },
+    "dday":             { "name": "D-Day Calculator",       "desc": "Count days until your deadline" },
+    "workHours":        { "name": "Work Hours Calculator",  "desc": "Calculate work & overtime hours" },
+    "timezone":         { "name": "Time Zone Converter",    "desc": "Coordinate meeting times globally" },
+    "pto":              { "name": "PTO Calculator",         "desc": "Track remaining vacation days" },
+    "qrGenerator":      { "name": "QR Code Generator",     "desc": "Generate QR codes for URLs, WiFi" },
+    "base64":           { "name": "Base64 Converter",       "desc": "Encode/decode Base64 text" },
+    "colorPalette":     { "name": "Color Palette",          "desc": "Convert HEX, RGB, HSL colors" },
+    "passwordGen":      { "name": "Password Generator",     "desc": "Generate secure random passwords" },
+    "jsonFormatter":    { "name": "JSON Formatter",         "desc": "Prettify, minify & validate JSON" },
+    "envGenerator":     { "name": ".env Generator",         "desc": "Generate .env file templates" },
+    "readmeBuilder":    { "name": "README Builder",         "desc": "Build GitHub README markdown" },
+    "cursorRules":      { "name": "Cursor Rules Generator", "desc": "Generate AI coding assistant rules" },
+    "unixTimestamp":    { "name": "Unix Timestamp",         "desc": "Convert Unix timestamps" },
+    "regexVisualizer":  { "name": "Regex Visualizer",       "desc": "Test regex patterns in real-time" },
+    "salary":           { "name": "Salary Calculator",      "desc": "Net salary after tax deductions" },
+    "overtime":         { "name": "Overtime Calculator",    "desc": "Calculate overtime pay" },
+    "raiseCalc":        { "name": "Raise Calculator",       "desc": "Compare salary before/after raise" },
+    "dutchPay":         { "name": "Dutch Pay Calculator",   "desc": "Split bills evenly among people" },
+    "freelanceRate":    { "name": "Freelance Rate Calc",    "desc": "Calculate hourly/daily/monthly rate" },
+    "ladderGame":       { "name": "Ladder Game",            "desc": "Fair random assignment tool" },
+    "roulette":         { "name": "Roulette",               "desc": "Random picker for lunch, tasks" },
+    "teamSplitter":     { "name": "Team Splitter",          "desc": "Divide people into balanced teams" },
+    "lunchPicker":      { "name": "Lunch Picker",           "desc": "Solve the what-to-eat dilemma" },
+    "luckyDraw":        { "name": "Lucky Draw",             "desc": "Random prize draw & event picker" },
+    "savingsCalc":      { "name": "Savings Calculator",    "desc": "Calculate interest & maturity amount" },
+    "loanCalc":         { "name": "Loan Calculator",       "desc": "Calculate loan repayment schedule" },
+    "unitConverter":    { "name": "Unit Converter",        "desc": "Convert length, weight, temp & area" },
+    "basicCalculator":  { "name": "Calculator",            "desc": "Basic arithmetic calculator" }
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear",
+    "paste": "Paste",
+    "download": "Download",
+    "reset": "Reset",
+    "calculate": "Calculate",
+    "result": "Result",
+    "back": "Back",
+    "related_tools": "Related Tools"
+  },
+  "games": {
+    "lunchPicker": {
+      "menuList": "Menu List",
+      "addPlaceholder": "Add menu",
+      "reset": "Reset to defaults",
+      "save": "Save menu",
+      "saved": "Saved!",
+      "pick": "Pick!",
+      "picking": "Picking...",
+      "pickPrompt": "Press the button to pick today's lunch!",
+      "todaysLunch": "Today's lunch! 🎉",
+      "again": "Pick again"
+    },
+    "roulette": {
+      "participants": "Participants",
+      "namePlaceholder": "Enter name",
+      "reset": "Reset",
+      "save": "Save",
+      "saved": "Saved!",
+      "spin": "Spin!",
+      "spinning": "Spinning...",
+      "winner": "Winner!"
+    },
+    "ladderGame": {
+      "count": "Participants",
+      "participants": "Names",
+      "results": "Results",
+      "generate": "Generate Ladder",
+      "revealAll": "Reveal All",
+      "save": "Save",
+      "result": "Result",
+      "participantPlaceholder": "Participant",
+      "resultPlaceholder": "Result"
+    },
+    "teamSplitter": {
+      "participants": "Participants",
+      "namePlaceholder": "One name per line",
+      "hint": "Separated by newlines · blank lines ignored",
+      "teamCount": "Teams",
+      "split": "Split Teams!",
+      "reshuffle": "Reshuffle",
+      "copy": "Copy Result",
+      "copied": "Copied!",
+      "prompt": "Click Split Teams to get started!",
+      "team": "Team",
+      "members": "members",
+      "save": "Save",
+      "saved": "Saved!"
+    },
+    "luckyDraw": {
+      "participants": "Participants",
+      "personUnit": "",
+      "hint": "One name per line",
+      "winnerCount": "Winners",
+      "draw": "Draw!",
+      "drawing": "Drawing...",
+      "announcement": "Winners Announced!",
+      "rankUnit": "",
+      "prompt": "Press the Draw button!",
+      "redraw": "Draw Again",
+      "copyResult": "Copy Result",
+      "winnersLabel": "Winners"
+    }
+  },
+  "guide": {
+    "title": "Usage Guide",
+    "when": "When to use",
+    "tips": "Tips",
+    "faq": "FAQ"
+  },
+  "text": {
+    "wordCounter": {
+      "chars": "Characters",
+      "words": "Words",
+      "sentences": "Sentences",
+      "lines": "Lines",
+      "placeholder": "Enter text here...",
+      "snsGuide": "SNS Character Guide"
+    },
+    "caseConverter": {
+      "inputLabel": "Input Text",
+      "placeholder": "Enter text to convert...",
+      "selectMode": "Select Case",
+      "outputLabel": "Result",
+      "outputPlaceholder": "Select a case above"
+    },
+    "whitespace": {
+      "options": "Options",
+      "trimEdges": "Trim edges",
+      "trimEdgesDesc": "Remove leading/trailing whitespace from each line and the entire text",
+      "collapseSpaces": "Collapse spaces",
+      "collapseSpacesDesc": "Merge consecutive spaces into one",
+      "removeEmpty": "Remove empty lines",
+      "removeEmptyDesc": "Remove all blank lines",
+      "tabsToSpaces": "Tabs → Spaces",
+      "tabsToSpacesDesc": "Convert tab characters to 2 spaces",
+      "input": "Input",
+      "inputPlaceholder": "Paste text here...",
+      "output": "Result",
+      "outputPlaceholder": "Processed result will appear here",
+      "removedChars": "-{{count}} chars removed"
+    },
+    "emailFormatter": {
+      "original": "Original",
+      "inputPlaceholder": "Paste your email content",
+      "format": "Format",
+      "result": "Formatted Result"
+    },
+    "resumeFormatter": {
+      "original": "Original Resume",
+      "inputPlaceholder": "Paste your resume text",
+      "format": "Format",
+      "result": "Formatted Result"
+    },
+    "meetingFormatter": {
+      "defaultTitle": "Meeting Notes",
+      "dateLabel": "Date",
+      "attendeesLabel": "Attendees",
+      "agendaSection": "Agenda",
+      "notesSection": "Discussion",
+      "actionsSection": "Action Items",
+      "titlePlaceholder": "Meeting Title",
+      "attendeesPlaceholder": "Attendees (comma separated)",
+      "agendaPlaceholder": "Agenda items (one per line)",
+      "notesPlaceholder": "Discussion notes",
+      "actionsPlaceholder": "Action items (one per line)",
+      "generate": "Generate Notes",
+      "outputLabel": "Meeting Notes (Markdown)"
+    }
+  },
+  "datetime": {
+    "dday": {
+      "addNew": "Add New D-Day",
+      "namePlaceholder": "Event name (e.g. Start date, Anniversary)",
+      "add": "Add",
+      "errorName": "Please enter an event name.",
+      "errorDate": "Please select a date.",
+      "empty": "No D-Days added yet. Add an event above!",
+      "pastDate": "past date",
+      "delete": "Delete",
+      "today": "Today"
+    },
+    "workHours": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "day1": "Day 1",
+      "totalHours": "Total Hours",
+      "regularHours": "Regular",
+      "overtime": "Overtime",
+      "overtimeLabel": "OT",
+      "zeroHours": "0 hrs",
+      "hoursMinutes": "{{hh}}h {{mm}}m",
+      "hoursOnly": "{{hh}}h",
+      "start": "In",
+      "end": "Out",
+      "break": "Break",
+      "breakMin": "{{m}}m",
+      "addDay": "Add Day",
+      "deleteDay": "Remove"
+    },
+    "timezone": {
+      "live": "Live",
+      "custom": "Custom",
+      "baseTime": "Base Time",
+      "hint": "Click a card to highlight it. Live mode auto-refreshes every second.",
+      "cities": {
+        "seoul": "Seoul (KST)",
+        "tokyo": "Tokyo (JST)",
+        "beijing": "Beijing (CST)",
+        "newYork": "New York (ET)",
+        "london": "London (GMT/BST)",
+        "paris": "Paris (CET)",
+        "losAngeles": "Los Angeles (PT)",
+        "sydney": "Sydney (AEDT)",
+        "singapore": "Singapore (SGT)",
+        "dubai": "Dubai (GST)"
+      }
+    },
+    "pto": {
+      "joinDate": "Join Date",
+      "usedDays": "Used Days",
+      "extraDays": "Extra Days",
+      "tenure": "{{years}} yr {{months}} mo tenure · Based on Labor Standards Act",
+      "totalPTO": "Total PTO",
+      "usedPTO": "Used PTO",
+      "remainingPTO": "Remaining PTO",
+      "days": "{{count}} days"
+    }
+  },
+  "calculator": {
+    "dutchPay": {
+      "basicSettings": "Basic Settings",
+      "totalAmountSymbol": "Total amount ({{symbol}})",
+      "totalAmountSuffix": "Total amount ({{suffix}})",
+      "baseParticipants": "Base participants",
+      "individualAdjustments": "Individual Adjustments",
+      "add": "Add",
+      "addHint": "Add someone with a different share",
+      "namePlaceholder": "Name",
+      "extra": "+ Extra",
+      "totalAmount": "Total Amount",
+      "splitDetails": "Split Details",
+      "copyResult": "Copy result"
+    },
+    "overtimeCalc": {
+      "regularHours": "Regular hours",
+      "basicPay": "Base pay",
+      "total": "Total"
+    },
+    "raiseCalc": {
+      "annualSalary": "Current annual salary",
+      "annualSalarySymbol": "Annual salary ({{symbol}})",
+      "raiseRate": "Raise rate",
+      "before": "Before",
+      "after": "After",
+      "perMonthNet": "/mo",
+      "annual": "Annual",
+      "monthlyNetDiff": "Monthly difference"
+    },
+    "freelanceRate": {
+      "monthlyTargetSymbol": "Monthly Target ({{symbol}})",
+      "monthlyTargetSuffix": "Monthly Target ({{suffix}})",
+      "workingDays": "Working days / month",
+      "workingHours": "Working hours / day",
+      "monthlyGross": "Monthly (gross)",
+      "dailyRate": "Daily rate",
+      "hourlyRate": "Hourly rate",
+      "monthlyAfterTax": "Monthly (after tax)"
+    },
+    "savingsCalc": {
+      "inputTitle": "Product Information",
+      "productType": "Product Type",
+      "installment": "Installment Savings",
+      "deposit": "Deposit",
+      "interestType": "Interest Type",
+      "simple": "Simple",
+      "compound": "Compound",
+      "principalLabel": "Principal Amount",
+      "monthlyDepositLabel": "Monthly Deposit",
+      "annualRate": "Annual Rate (%)",
+      "period": "Term",
+      "periodYear": "{{n}} yr",
+      "periodMonth": "{{n}} mo",
+      "currencyUnit": "",
+      "afterTaxMaturity": "After-tax Maturity Amount",
+      "beforeTax": "Before tax",
+      "totalPrincipal": "Total Principal",
+      "interestEarned": "Interest Earned",
+      "interestTax": "Interest Tax (15.4%)",
+      "afterTaxAmount": "After-tax Amount",
+      "taxNote": "※ Interest tax 15.4% applied. Tax-exempt products: refer to pre-tax amount.",
+      "emptyPrompt": "Enter information and\npress Calculate"
+    },
+    "loanCalc": {
+      "inputTitle": "Loan Information",
+      "repayType": "Repayment Type",
+      "equalInstallment": "Equal Installment",
+      "equalPrincipal": "Equal Principal",
+      "loanAmountLabel": "Loan Amount",
+      "billionUnit": " (billion)",
+      "annualRate": "Annual Rate (%)",
+      "loanPeriod": "Loan Term",
+      "periodYear": "{{n}} yr",
+      "periodMonth": "{{n}} mo",
+      "currencyUnit": "",
+      "monthlyPaymentEqual": "Monthly Payment (equal)",
+      "firstMonthPayment": "First Month Payment",
+      "loanPrincipal": "Loan Principal",
+      "totalInterest": "Total Interest",
+      "totalRepayment": "Total Repayment",
+      "showSchedule": "▼ Show Schedule",
+      "hideSchedule": "▲ Hide Schedule",
+      "scheduleMonth": "Month",
+      "schedulePayment": "Payment",
+      "schedulePrincipal": "Principal",
+      "scheduleInterest": "Interest",
+      "scheduleBalance": "Balance",
+      "disclaimer": "※ Actual loan terms may vary. Excludes prepayment fees and insurance premiums.",
+      "emptyPrompt": "Enter information and\npress Calculate"
+    },
+    "basicCalc": {
+      "divByZero": "Cannot divide by zero",
+      "backspace": "Delete",
+      "history": "History",
+      "historyEmpty": "Results will appear here"
+    }
+  },
+  "fortune": {
+    "title": "Daily Fortune",
+    "subtitle": "Chinese Zodiac Fortune",
+    "inputLabel": "Birth Year",
+    "inputPlaceholder": "e.g. 1990",
+    "save": "Save",
+    "today": "Today's Fortune",
+    "weekly": "Weekly Fortune",
+    "monthly": "Monthly Fortune",
+    "overall": "Overall",
+    "work": "Career",
+    "money": "Money",
+    "relations": "Relations",
+    "animals": {
+      "rat": "Rat", "ox": "Ox", "tiger": "Tiger", "rabbit": "Rabbit",
+      "dragon": "Dragon", "snake": "Snake", "horse": "Horse", "goat": "Goat",
+      "monkey": "Monkey", "rooster": "Rooster", "dog": "Dog", "pig": "Pig"
+    }
+  }
+}

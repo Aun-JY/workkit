@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "首页",
+    "favorites": "收藏"
+  },
+  "categories": {
+    "text": "文本工具",
+    "datetime": "日期时间",
+    "converter": "转换工具",
+    "dev": "开发工具",
+    "calculator": "计算器",
+    "games": "团队游戏"
+  },
+  "favorites": {
+    "title": "收藏",
+    "subtitle": "Favorites",
+    "empty": "点击 ☆ 添加\n工具到收藏夹"
+  },
+  "home": {
+    "hero_badge": "职场人必备工具集",
+    "hero_title": "提升工作效率的\n免费在线工具",
+    "hero_desc": "字数统计、薪资计算、梯子游戏\n30多种工作工具汇聚一堂",
+    "search_placeholder": "搜索工具... / Search tools... / 도구 검색",
+    "popular_tools": "热门工具",
+    "all_categories": "全部分类",
+    "game_banner_title": "用团队游戏让会议更有趣！",
+    "game_banner_desc": "梯子游戏、轮盘、分队工具",
+    "game_banner_cta": "浏览游戏",
+    "view_all": "查看全部"
+  },
+  "category": {
+    "tools_count": "个工具",
+    "filter_all": "全部",
+    "filter_popular": "🔥 热门",
+    "filter_niche": "⭐ 细分",
+    "filter_new": "🆕 新增",
+    "no_results": "没有符合条件的工具。"
+  },
+  "badges": {
+    "popular": "热门",
+    "niche": "细分",
+    "new": "新增"
+  },
+  "tools": {
+    "wordCounter":      { "name": "字数统计",               "desc": "实时统计字符数和词数" },
+    "caseConverter":    { "name": "大小写转换",             "desc": "批量转换英文文本大小写" },
+    "whitespace":       { "name": "空格清理",               "desc": "删除多余空格和换行符" },
+    "emailFormatter":   { "name": "邮件格式整理",           "desc": "自动整理商务邮件格式" },
+    "resumeFormatter":  { "name": "简历格式整理",           "desc": "统一简历文本格式" },
+    "meetingFormatter": { "name": "会议记录整理",           "desc": "将会议内容整理成清晰格式" },
+    "dday":             { "name": "倒计时计算器",           "desc": "计算距离目标日期的天数" },
+    "workHours":        { "name": "工时计算器",             "desc": "自动计算上下班及加班时间" },
+    "timezone":         { "name": "时区转换器",             "desc": "协调全球团队会议时间" },
+    "pto":              { "name": "年假计算器",             "desc": "计算剩余和已用年假天数" },
+    "qrGenerator":      { "name": "二维码生成器",           "desc": "生成URL、文本、WiFi二维码" },
+    "base64":           { "name": "Base64转换器",           "desc": "文本Base64编码/解码" },
+    "colorPalette":     { "name": "颜色调色板",             "desc": "HEX、RGB、HSL颜色转换" },
+    "passwordGen":      { "name": "密码生成器",             "desc": "即时生成安全随机密码" },
+    "jsonFormatter":    { "name": "JSON格式化",             "desc": "美化、压缩和验证JSON" },
+    "envGenerator":     { "name": ".env文件生成器",         "desc": "自动生成.env模板" },
+    "readmeBuilder":    { "name": "README构建器",           "desc": "构建GitHub README文档" },
+    "cursorRules":      { "name": "Cursor规则生成器",       "desc": "生成AI编程助手规则" },
+    "unixTimestamp":    { "name": "Unix时间戳",             "desc": "Unix时间戳转换计算" },
+    "regexVisualizer":  { "name": "正则表达式可视化",       "desc": "实时测试正则表达式模式" },
+    "salary":           { "name": "薪资计算器",             "desc": "计算税后实际到手薪资" },
+    "overtime":         { "name": "加班费计算器",           "desc": "计算加班、夜班、假日补贴" },
+    "raiseCalc":        { "name": "涨薪计算器",             "desc": "比较涨薪前后实际到手金额" },
+    "dutchPay":         { "name": "AA制计算器",             "desc": "聚餐费用人均分摊计算" },
+    "freelanceRate":    { "name": "自由职业费率计算",       "desc": "时薪日薪月薪换算" },
+    "ladderGame":       { "name": "梯子游戏",               "desc": "公平随机分配工具" },
+    "roulette":         { "name": "轮盘",                   "desc": "随机选择午餐、值班" },
+    "teamSplitter":     { "name": "分队工具",               "desc": "将人员均匀分配为团队" },
+    "lunchPicker":      { "name": "午餐选择器",             "desc": "解决今天吃什么的烦恼" },
+    "luckyDraw":        { "name": "幸运抽奖",               "desc": "奖品抽签、活动获奖者选定" },
+    "savingsCalc":      { "name": "存款利息计算器",          "desc": "计算利息和到期金额" },
+    "loanCalc":         { "name": "贷款计算器",              "desc": "计算贷款还款计划" },
+    "unitConverter":    { "name": "单位转换器",              "desc": "长度、重量、温度、面积转换" },
+    "basicCalculator":  { "name": "计算器",                  "desc": "基础四则运算计算器" }
+  },
+  "common": {
+    "copy": "复制",
+    "copied": "已复制!",
+    "clear": "清除",
+    "paste": "粘贴",
+    "download": "下载",
+    "reset": "重置",
+    "calculate": "计算",
+    "result": "结果",
+    "back": "返回",
+    "related_tools": "相关工具"
+  },
+  "games": {
+    "lunchPicker": {
+      "menuList": "菜单列表",
+      "addPlaceholder": "添加菜单",
+      "reset": "重置为默认",
+      "save": "保存菜单",
+      "saved": "已保存!",
+      "pick": "选择!",
+      "picking": "选择中...",
+      "pickPrompt": "按下按钮选择今天的午餐！",
+      "todaysLunch": "今天的午餐！🎉",
+      "again": "再次选择"
+    },
+    "roulette": {
+      "participants": "参与者列表",
+      "namePlaceholder": "输入名字",
+      "reset": "重置",
+      "save": "保存",
+      "saved": "已保存!",
+      "spin": "转动!",
+      "spinning": "旋转中...",
+      "winner": "中奖！"
+    },
+    "ladderGame": {
+      "count": "人数",
+      "participants": "参与者",
+      "results": "结果项目",
+      "generate": "生成梯子",
+      "revealAll": "全部公开",
+      "save": "保存",
+      "result": "结果",
+      "participantPlaceholder": "参与者",
+      "resultPlaceholder": "结果"
+    },
+    "teamSplitter": {
+      "participants": "参与者列表",
+      "namePlaceholder": "每行输入一个名字",
+      "hint": "换行分隔·空行忽略",
+      "teamCount": "队伍数量",
+      "split": "分队！",
+      "reshuffle": "重新洗牌",
+      "copy": "复制结果",
+      "copied": "已复制!",
+      "prompt": "点击分队按钮开始！",
+      "team": "队",
+      "members": "人",
+      "save": "保存",
+      "saved": "已保存!"
+    },
+    "luckyDraw": {
+      "participants": "参与者列表",
+      "personUnit": "人",
+      "hint": "每行输入一个名字",
+      "winnerCount": "中奖人数",
+      "draw": "抽奖!",
+      "drawing": "抽奖中...",
+      "announcement": "中奖者公布！",
+      "rankUnit": "名",
+      "prompt": "请按下抽奖按钮！",
+      "redraw": "再次抽奖",
+      "copyResult": "复制结果",
+      "winnersLabel": "中奖者"
+    }
+  },
+  "guide": {
+    "title": "使用指南",
+    "when": "适用场景",
+    "tips": "小贴士",
+    "faq": "常见问题"
+  },
+  "text": {
+    "wordCounter": {
+      "chars": "字符数",
+      "words": "词数",
+      "sentences": "句子数",
+      "lines": "行数",
+      "placeholder": "在此输入文字...",
+      "snsGuide": "社交媒体字符指南"
+    },
+    "caseConverter": {
+      "inputLabel": "输入文本",
+      "placeholder": "输入要转换的文本...",
+      "selectMode": "选择转换方式",
+      "outputLabel": "转换结果",
+      "outputPlaceholder": "请在上方选择转换方式"
+    },
+    "whitespace": {
+      "options": "处理选项",
+      "trimEdges": "去除首尾空格",
+      "trimEdgesDesc": "删除每行及整体文本首尾的空格",
+      "collapseSpaces": "合并连续空格",
+      "collapseSpacesDesc": "将连续的空格合并为一个",
+      "removeEmpty": "删除空行",
+      "removeEmptyDesc": "删除所有空白行",
+      "tabsToSpaces": "制表符→空格",
+      "tabsToSpacesDesc": "将制表符转换为两个空格",
+      "input": "输入",
+      "inputPlaceholder": "在此粘贴文本...",
+      "output": "结果",
+      "outputPlaceholder": "处理结果将在此显示",
+      "removedChars": "已删除{{count}}个字符"
+    },
+    "emailFormatter": {
+      "original": "原始邮件",
+      "inputPlaceholder": "粘贴邮件内容",
+      "format": "整理",
+      "result": "整理结果"
+    },
+    "resumeFormatter": {
+      "original": "原始简历",
+      "inputPlaceholder": "粘贴简历文本",
+      "format": "格式整理",
+      "result": "整理结果"
+    },
+    "meetingFormatter": {
+      "defaultTitle": "会议记录",
+      "dateLabel": "日期",
+      "attendeesLabel": "参与者",
+      "agendaSection": "议程",
+      "notesSection": "讨论内容",
+      "actionsSection": "行动项目",
+      "titlePlaceholder": "会议标题",
+      "attendeesPlaceholder": "参与者（逗号分隔）",
+      "agendaPlaceholder": "议程（每行一项）",
+      "notesPlaceholder": "讨论内容",
+      "actionsPlaceholder": "行动项目（每行一项）",
+      "generate": "生成会议记录",
+      "outputLabel": "会议记录（Markdown）"
+    }
+  },
+  "datetime": {
+    "dday": {
+      "addNew": "添加新倒计时",
+      "namePlaceholder": "事件名称（例：入职日、结婚纪念日）",
+      "add": "添加",
+      "errorName": "请输入事件名称。",
+      "errorDate": "请选择日期。",
+      "empty": "暂无倒计时。请在上方添加事件！",
+      "pastDate": "已过日期",
+      "delete": "删除",
+      "today": "今天"
+    },
+    "workHours": {
+      "days": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"],
+      "day1": "第1天",
+      "totalHours": "总工时",
+      "regularHours": "正常工时",
+      "overtime": "加班",
+      "overtimeLabel": "加班",
+      "zeroHours": "0小时",
+      "hoursMinutes": "{{hh}}小时{{mm}}分",
+      "hoursOnly": "{{hh}}小时",
+      "start": "上班",
+      "end": "下班",
+      "break": "休息",
+      "breakMin": "{{m}}分钟",
+      "addDay": "添加一天",
+      "deleteDay": "删除"
+    },
+    "timezone": {
+      "live": "实时",
+      "custom": "自定义时间",
+      "baseTime": "基准时间",
+      "hint": "点击卡片可切换高亮。实时模式每秒自动刷新。",
+      "cities": {
+        "seoul": "首尔 (KST)",
+        "tokyo": "东京 (JST)",
+        "beijing": "北京 (CST)",
+        "newYork": "纽约 (ET)",
+        "london": "伦敦 (GMT/BST)",
+        "paris": "巴黎 (CET)",
+        "losAngeles": "洛杉矶 (PT)",
+        "sydney": "悉尼 (AEDT)",
+        "singapore": "新加坡 (SGT)",
+        "dubai": "迪拜 (GST)"
+      }
+    },
+    "pto": {
+      "joinDate": "入职日期",
+      "usedDays": "已用年假（天）",
+      "extraDays": "额外年假（天）",
+      "tenure": "在职{{years}}年{{months}}个月·依据劳动法",
+      "totalPTO": "总年假",
+      "usedPTO": "已用年假",
+      "remainingPTO": "剩余年假",
+      "days": "{{count}}天"
+    }
+  },
+  "calculator": {
+    "dutchPay": {
+      "basicSettings": "基本设置",
+      "totalAmountSymbol": "总金额 ({{symbol}})",
+      "totalAmountSuffix": "总金额 ({{suffix}})",
+      "baseParticipants": "基本人数",
+      "individualAdjustments": "个别调整",
+      "add": "添加",
+      "addHint": "添加需要个别调整金额的参与者",
+      "namePlaceholder": "姓名",
+      "extra": "额外金额",
+      "totalAmount": "总金额",
+      "splitDetails": "分摊明细",
+      "copyResult": "复制结果"
+    },
+    "overtimeCalc": {
+      "regularHours": "正常工时",
+      "basicPay": "基本工资",
+      "total": "合计"
+    },
+    "raiseCalc": {
+      "annualSalary": "当前年薪",
+      "annualSalarySymbol": "年薪 ({{symbol}})",
+      "raiseRate": "涨薪比例",
+      "before": "涨薪前",
+      "after": "涨薪后",
+      "perMonthNet": "/月到手",
+      "annual": "年薪",
+      "monthlyNetDiff": "月到手差额"
+    },
+    "freelanceRate": {
+      "monthlyTargetSymbol": "月目标收入 ({{symbol}})",
+      "monthlyTargetSuffix": "月目标收入 ({{suffix}})",
+      "workingDays": "每月工作天数",
+      "workingHours": "每日工作时数",
+      "monthlyGross": "月薪 (税前)",
+      "dailyRate": "日薪",
+      "hourlyRate": "时薪",
+      "monthlyAfterTax": "月到手金额 (税后)"
+    },
+    "savingsCalc": {
+      "inputTitle": "产品信息录入",
+      "productType": "产品类型",
+      "installment": "零存整取",
+      "deposit": "定期存款",
+      "interestType": "计息方式",
+      "simple": "单利",
+      "compound": "复利",
+      "principalLabel": "存入本金 (元)",
+      "monthlyDepositLabel": "月存金额 (元)",
+      "annualRate": "年利率 (%)",
+      "period": "存款期限",
+      "periodYear": "{{n}}年",
+      "periodMonth": "{{n}}个月",
+      "currencyUnit": "元",
+      "afterTaxMaturity": "税后到期金额",
+      "beforeTax": "税前",
+      "totalPrincipal": "存入本金",
+      "interestEarned": "利息收益",
+      "interestTax": "利息税 (20%)",
+      "afterTaxAmount": "税后金额",
+      "taxNote": "※ 已扣除利息税。免税产品请参考税前金额。",
+      "emptyPrompt": "请输入信息后\n点击计算"
+    },
+    "loanCalc": {
+      "inputTitle": "贷款信息录入",
+      "repayType": "还款方式",
+      "equalInstallment": "等额还款",
+      "equalPrincipal": "等本还款",
+      "loanAmountLabel": "贷款金额 (元)",
+      "billionUnit": " 亿元",
+      "annualRate": "年利率 (%)",
+      "loanPeriod": "贷款期限",
+      "periodYear": "{{n}}年",
+      "periodMonth": "{{n}}个月",
+      "currencyUnit": "元",
+      "monthlyPaymentEqual": "月还款额 (等额)",
+      "firstMonthPayment": "首月还款额",
+      "loanPrincipal": "贷款本金",
+      "totalInterest": "总利息",
+      "totalRepayment": "总还款额",
+      "showSchedule": "▼ 查看还款计划",
+      "hideSchedule": "▲ 隐藏还款计划",
+      "scheduleMonth": "期数",
+      "schedulePayment": "还款额",
+      "schedulePrincipal": "本金",
+      "scheduleInterest": "利息",
+      "scheduleBalance": "余额",
+      "disclaimer": "※ 实际贷款条件因产品而异，不含提前还款手续费等。",
+      "emptyPrompt": "请输入信息后\n点击计算"
+    },
+    "basicCalc": {
+      "divByZero": "不能除以零",
+      "backspace": "删除",
+      "history": "计算记录",
+      "historyEmpty": "计算结果将显示在这里"
+    }
+  },
+  "fortune": {
+    "title": "今日运势",
+    "subtitle": "十二生肖运势",
+    "inputLabel": "出生年份",
+    "inputPlaceholder": "例: 1987",
+    "save": "保存",
+    "today": "今日运势",
+    "weekly": "本周运势",
+    "monthly": "本月运势",
+    "overall": "总运",
+    "work": "工作运",
+    "money": "财运",
+    "relations": "人际关系",
+    "animals": {
+      "rat": "鼠", "ox": "牛", "tiger": "虎", "rabbit": "兔",
+      "dragon": "龙", "snake": "蛇", "horse": "马", "goat": "羊",
+      "monkey": "猴", "rooster": "鸡", "dog": "狗", "pig": "猪"
+    }
+  }
+}

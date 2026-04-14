@@ -1,0 +1,22 @@
+:root {
+  --bg:             #FFF8F0;
+  --surface:        #FFFFFF;
+  --surface2:       #FFF2E4;
+  --border:         #F0E4D0;
+  --border2:        #E8D8C0;
+  --text:           #2D1F0E;
+  --muted:          #A08060;
+  --muted2:         #C4A882;
+  --accent:         #FF6B2B;
+  --accent-soft:    #FFF0E8;
+  --accent-border:  #FECBB0;
+  --green:          #16A34A;
+  --green-soft:     #F0FDF4;
+  --green-border:   #BBF7D0;
+  --blue:           #2563EB;
+  --blue-soft:      #EFF6FF;
+  --blue-border:    #BFDBFE;
+  --star:           #F59E0B;
+  --star-soft:      #FFFBEB;
+  --star-border:    #FDE68A;
+}

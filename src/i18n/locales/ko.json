@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "홈",
+    "favorites": "즐겨찾기"
+  },
+  "categories": {
+    "text": "텍스트 도구",
+    "datetime": "날짜·시간",
+    "converter": "변환 도구",
+    "dev": "개발자 도구",
+    "calculator": "계산기",
+    "games": "팀 게임"
+  },
+  "favorites": {
+    "title": "즐겨찾기",
+    "subtitle": "Favorites",
+    "empty": "별표 ☆ 를 클릭해서\n즐겨찾기에 추가하세요"
+  },
+  "home": {
+    "hero_badge": "직장인 필수 도구 모음",
+    "hero_title": "업무 효율을 높이는\n무료 온라인 도구",
+    "hero_desc": "글자 수 세기, 연봉 계산, 사다리 타기까지\n30가지 업무 도구를 한 곳에서",
+    "search_placeholder": "도구 검색... / Search tools... / ツール検索",
+    "popular_tools": "인기 도구",
+    "all_categories": "모든 카테고리",
+    "game_banner_title": "팀 게임으로 회의를 즐겁게!",
+    "game_banner_desc": "사다리 타기, 룰렛, 팀 나누기 — 팀빌딩 게임 모음",
+    "game_banner_cta": "게임 모아보기",
+    "view_all": "모두 보기"
+  },
+  "category": {
+    "tools_count": "개 도구",
+    "filter_all": "전체",
+    "filter_popular": "🔥 인기",
+    "filter_niche": "⭐ 틈새",
+    "filter_new": "🆕 새것",
+    "no_results": "해당 필터에 맞는 도구가 없습니다."
+  },
+  "badges": {
+    "popular": "인기",
+    "niche": "틈새",
+    "new": "새것"
+  },
+  "tools": {
+    "wordCounter":      { "name": "글자 수 세기",           "desc": "SNS·기획서 글자수 실시간 체크" },
+    "caseConverter":    { "name": "대소문자 변환",           "desc": "영문 텍스트 케이스 일괄 변환" },
+    "whitespace":       { "name": "공백 제거기",             "desc": "불필요한 공백·줄바꿈 일괄 제거" },
+    "emailFormatter":   { "name": "이메일 서식 정리",        "desc": "비즈니스 이메일 형식 자동 정리" },
+    "resumeFormatter":  { "name": "이력서 서식 정리",        "desc": "이력서 텍스트 포맷 통일" },
+    "meetingFormatter": { "name": "회의록 정리",             "desc": "회의 내용을 깔끔한 형식으로" },
+    "dday":             { "name": "D-Day 계산기",            "desc": "목표일·마감일까지 남은 날 계산" },
+    "workHours":        { "name": "근무 시간 계산기",        "desc": "출퇴근 시간·초과근무 자동 계산" },
+    "timezone":         { "name": "세계 시간 변환기",        "desc": "다국가 팀과의 미팅 시간 조율" },
+    "pto":              { "name": "연차 계산기",             "desc": "연차 잔여일·사용일 계산" },
+    "qrGenerator":      { "name": "QR 코드 생성기",         "desc": "URL·텍스트·WiFi QR 코드 생성" },
+    "base64":           { "name": "Base64 변환기",           "desc": "텍스트·파일 Base64 인코딩/디코딩" },
+    "colorPalette":     { "name": "색상 팔레트",             "desc": "HEX·RGB·HSL 색상 변환 및 팔레트" },
+    "passwordGen":      { "name": "비밀번호 생성기",         "desc": "안전한 랜덤 비밀번호 즉시 생성" },
+    "jsonFormatter":    { "name": "JSON 포맷터",             "desc": "JSON 예쁘게 정렬·검증·압축" },
+    "envGenerator":     { "name": ".env 파일 생성기",        "desc": ".env 템플릿 자동 생성" },
+    "readmeBuilder":    { "name": "README 빌더",             "desc": "GitHub README 마크다운 작성" },
+    "cursorRules":      { "name": "Cursor Rules 생성기",     "desc": "AI 코딩 어시스턴트 규칙 생성" },
+    "unixTimestamp":    { "name": "Unix 타임스탬프",         "desc": "Unix 타임스탬프 변환·계산" },
+    "regexVisualizer":  { "name": "정규식 시각화",           "desc": "정규식 패턴 실시간 테스트" },
+    "salary":           { "name": "연봉 실수령액 계산기",    "desc": "4대보험·세금 공제 후 실수령액" },
+    "overtime":         { "name": "초과근무 수당 계산기",    "desc": "연장·야간·휴일 수당 계산" },
+    "raiseCalc":        { "name": "연봉 인상률 계산기",      "desc": "연봉 인상 전후 실수령액 비교" },
+    "dutchPay":         { "name": "더치페이 계산기",         "desc": "회식비·경비 인원별 정산" },
+    "freelanceRate":    { "name": "프리랜서 단가 계산기",    "desc": "시급·일급·월급 환산 계산" },
+    "ladderGame":       { "name": "사다리 타기",             "desc": "팀 배정, 발표 순서를 공정하게" },
+    "roulette":         { "name": "룰렛",                    "desc": "점심 메뉴, 당번 랜덤 선택" },
+    "teamSplitter":     { "name": "팀 나누기",               "desc": "인원을 균등하게 팀으로 분배" },
+    "lunchPicker":      { "name": "점심 메뉴 뽑기",          "desc": "오늘 점심 뭐 먹을지 고민 해결" },
+    "luckyDraw":        { "name": "럭키드로우",              "desc": "경품 추첨, 이벤트 당첨자 선정" },
+    "savingsCalc":      { "name": "예금·적금 계산기",        "desc": "단리/복리 이자와 만기 수령액 계산" },
+    "loanCalc":         { "name": "대출 이자 계산기",        "desc": "원리금균등/원금균등 상환 계산" },
+    "unitConverter":    { "name": "단위 변환기",             "desc": "길이·무게·온도·넓이 단위 변환" },
+    "basicCalculator":  { "name": "계산기",                  "desc": "사칙연산 계산기" }
+  },
+  "common": {
+    "copy": "복사",
+    "copied": "복사됨!",
+    "clear": "지우기",
+    "paste": "붙여넣기",
+    "download": "다운로드",
+    "reset": "초기화",
+    "calculate": "계산하기",
+    "result": "결과",
+    "back": "뒤로",
+    "related_tools": "관련 도구"
+  },
+  "games": {
+    "lunchPicker": {
+      "menuList": "메뉴 목록",
+      "addPlaceholder": "메뉴 추가",
+      "reset": "기본 메뉴로 초기화",
+      "save": "메뉴 저장",
+      "saved": "저장됨!",
+      "pick": "뽑기!",
+      "picking": "뽑는 중...",
+      "pickPrompt": "버튼을 눌러 오늘의 점심을 뽑아보세요!",
+      "todaysLunch": "오늘 점심은 이거다! 🎉",
+      "again": "다시 뽑기"
+    },
+    "roulette": {
+      "participants": "참가자 목록",
+      "namePlaceholder": "이름 입력",
+      "reset": "초기화",
+      "save": "저장",
+      "saved": "저장됨!",
+      "spin": "돌리기!",
+      "spinning": "돌아가는 중...",
+      "winner": "당첨!"
+    },
+    "ladderGame": {
+      "count": "인원 수",
+      "participants": "참가자",
+      "results": "결과 항목",
+      "generate": "사다리 새로 생성",
+      "revealAll": "결과 전체 공개",
+      "save": "저장",
+      "result": "결과",
+      "participantPlaceholder": "참가자",
+      "resultPlaceholder": "결과"
+    },
+    "teamSplitter": {
+      "participants": "참가자 목록",
+      "namePlaceholder": "한 줄에 한 명씩 입력하세요",
+      "hint": "줄바꿈으로 구분 · 공백 줄은 무시됩니다",
+      "teamCount": "팀 수",
+      "split": "팀 나누기!",
+      "reshuffle": "다시 섞기",
+      "copy": "결과 복사",
+      "copied": "복사됨!",
+      "prompt": "팀 나누기 버튼을 눌러보세요!",
+      "team": "팀",
+      "members": "명",
+      "save": "저장",
+      "saved": "저장됨!"
+    },
+    "luckyDraw": {
+      "participants": "참가자 목록",
+      "personUnit": "명",
+      "hint": "한 줄에 한 명씩 입력",
+      "winnerCount": "당첨자 수",
+      "draw": "추첨하기!",
+      "drawing": "추첨 중...",
+      "announcement": "당첨자 발표!",
+      "rankUnit": "등",
+      "prompt": "추첨 버튼을 눌러주세요!",
+      "redraw": "다시 추첨",
+      "copyResult": "결과 복사",
+      "winnersLabel": "당첨자"
+    }
+  },
+  "guide": {
+    "title": "사용 가이드",
+    "when": "이럴 때 쓰세요",
+    "tips": "꿀팁",
+    "faq": "자주 묻는 질문"
+  },
+  "text": {
+    "wordCounter": {
+      "chars": "글자수",
+      "words": "단어수",
+      "sentences": "문장수",
+      "lines": "줄수",
+      "placeholder": "여기에 텍스트를 입력하세요...",
+      "snsGuide": "SNS 글자수 가이드"
+    },
+    "caseConverter": {
+      "inputLabel": "입력 텍스트",
+      "placeholder": "변환할 텍스트를 입력하세요...",
+      "selectMode": "변환 방식 선택",
+      "outputLabel": "변환 결과",
+      "outputPlaceholder": "위에서 변환 방식을 선택하세요"
+    },
+    "whitespace": {
+      "options": "처리 옵션",
+      "trimEdges": "앞뒤 공백 제거",
+      "trimEdgesDesc": "각 줄의 앞뒤 공백과 전체 텍스트의 앞뒤 공백 제거",
+      "collapseSpaces": "중복 공백 제거",
+      "collapseSpacesDesc": "연속된 공백을 하나로 합침",
+      "removeEmpty": "빈 줄 제거",
+      "removeEmptyDesc": "내용이 없는 빈 줄을 모두 제거",
+      "tabsToSpaces": "탭 → 스페이스 변환",
+      "tabsToSpacesDesc": "탭 문자를 공백 2칸으로 변환",
+      "input": "입력",
+      "inputPlaceholder": "여기에 텍스트를 붙여넣으세요...",
+      "output": "결과",
+      "outputPlaceholder": "처리 결과가 여기에 표시됩니다",
+      "removedChars": "-{{count}}자 제거됨"
+    },
+    "emailFormatter": {
+      "original": "원본",
+      "inputPlaceholder": "이메일 내용을 붙여넣으세요",
+      "format": "정리하기",
+      "result": "정리 결과"
+    },
+    "resumeFormatter": {
+      "original": "이력서 원본",
+      "inputPlaceholder": "이력서 텍스트를 붙여넣으세요",
+      "format": "형식 정리",
+      "result": "정리 결과"
+    },
+    "meetingFormatter": {
+      "defaultTitle": "회의록",
+      "dateLabel": "일시",
+      "attendeesLabel": "참석자",
+      "agendaSection": "안건",
+      "notesSection": "논의 내용",
+      "actionsSection": "액션 아이템",
+      "titlePlaceholder": "회의 제목",
+      "attendeesPlaceholder": "참석자 (쉼표 구분)",
+      "agendaPlaceholder": "안건 (줄바꿈으로 구분)",
+      "notesPlaceholder": "논의 내용",
+      "actionsPlaceholder": "액션 아이템 (줄바꿈으로 구분)",
+      "generate": "회의록 생성",
+      "outputLabel": "회의록 (마크다운)"
+    }
+  },
+  "datetime": {
+    "dday": {
+      "addNew": "새 D-Day 추가",
+      "namePlaceholder": "이벤트 이름 (예: 입사일, 결혼기념일)",
+      "add": "추가",
+      "errorName": "이벤트 이름을 입력하세요.",
+      "errorDate": "날짜를 선택하세요.",
+      "empty": "아직 추가된 D-Day가 없습니다. 위에서 이벤트를 추가해보세요!",
+      "pastDate": "지난 날짜",
+      "delete": "삭제",
+      "today": "오늘"
+    },
+    "workHours": {
+      "days": ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"],
+      "day1": "1일",
+      "totalHours": "총 근무시간",
+      "regularHours": "정규 근무",
+      "overtime": "초과 근무",
+      "overtimeLabel": "초과",
+      "zeroHours": "0시간",
+      "hoursMinutes": "{{hh}}시간 {{mm}}분",
+      "hoursOnly": "{{hh}}시간",
+      "start": "출근",
+      "end": "퇴근",
+      "break": "휴게",
+      "breakMin": "{{m}}분",
+      "addDay": "하루 추가",
+      "deleteDay": "삭제"
+    },
+    "timezone": {
+      "live": "실시간",
+      "custom": "시간 지정",
+      "baseTime": "기준 시간",
+      "hint": "카드를 클릭하면 하이라이트를 토글할 수 있어요. 실시간 모드에서는 매초 자동 갱신됩니다.",
+      "cities": {
+        "seoul": "서울 (KST)",
+        "tokyo": "도쿄 (JST)",
+        "beijing": "베이징 (CST)",
+        "newYork": "뉴욕 (ET)",
+        "london": "런던 (GMT/BST)",
+        "paris": "파리 (CET)",
+        "losAngeles": "로스앤젤레스 (PT)",
+        "sydney": "시드니 (AEDT)",
+        "singapore": "싱가포르 (SGT)",
+        "dubai": "두바이 (GST)"
+      }
+    },
+    "pto": {
+      "joinDate": "입사일",
+      "usedDays": "사용한 연차 (일)",
+      "extraDays": "추가 연차 (일)",
+      "tenure": "근속 {{years}}년 {{months}}개월 · 근로기준법 기준",
+      "totalPTO": "총 연차",
+      "usedPTO": "사용한 연차",
+      "remainingPTO": "잔여 연차",
+      "days": "{{count}}일"
+    }
+  },
+  "calculator": {
+    "dutchPay": {
+      "basicSettings": "기본 설정",
+      "totalAmountSymbol": "총 금액 ({{symbol}})",
+      "totalAmountSuffix": "총 금액 ({{suffix}})",
+      "baseParticipants": "기본 인원 수",
+      "individualAdjustments": "개별 조정",
+      "add": "추가",
+      "addHint": "개별 금액을 조정할 참여자를 추가하세요",
+      "namePlaceholder": "이름",
+      "extra": "추가금액",
+      "totalAmount": "총 금액",
+      "splitDetails": "정산 내역",
+      "copyResult": "결과 복사"
+    },
+    "overtimeCalc": {
+      "regularHours": "기본 근무 시간",
+      "basicPay": "기본급",
+      "total": "합계"
+    },
+    "raiseCalc": {
+      "annualSalary": "현재 연봉",
+      "annualSalarySymbol": "연간 급여 ({{symbol}})",
+      "raiseRate": "인상률",
+      "before": "인상 전",
+      "after": "인상 후",
+      "perMonthNet": "/월 실수령",
+      "annual": "연봉",
+      "monthlyNetDiff": "월 실수령액 차이"
+    },
+    "freelanceRate": {
+      "monthlyTargetSymbol": "월 목표 수입 ({{symbol}})",
+      "monthlyTargetSuffix": "월 목표 수입 ({{suffix}})",
+      "workingDays": "월 근무일 수",
+      "workingHours": "일 근무시간",
+      "monthlyGross": "월급 (세전)",
+      "dailyRate": "일급",
+      "hourlyRate": "시급",
+      "monthlyAfterTax": "월 실수령액 (세후)"
+    },
+    "savingsCalc": {
+      "inputTitle": "상품 정보 입력",
+      "productType": "상품 종류",
+      "installment": "적금",
+      "deposit": "예금",
+      "interestType": "이자 방식",
+      "simple": "단리",
+      "compound": "복리",
+      "principalLabel": "예치 원금 (원)",
+      "monthlyDepositLabel": "월 납입액 (원)",
+      "annualRate": "연 금리 (%)",
+      "period": "가입 기간",
+      "periodYear": "{{n}}년",
+      "periodMonth": "{{n}}개월",
+      "currencyUnit": "원",
+      "afterTaxMaturity": "세후 만기 수령액",
+      "beforeTax": "세전",
+      "totalPrincipal": "납입 원금",
+      "interestEarned": "이자 수익",
+      "interestTax": "이자소득세 (15.4%)",
+      "afterTaxAmount": "세후 수령액",
+      "taxNote": "※ 이자소득세 15.4% (소득세 14% + 지방소득세 1.4%) 적용. 비과세 상품은 세전 금액 참고.",
+      "emptyPrompt": "정보를 입력하고\n계산하기를 누르세요"
+    },
+    "loanCalc": {
+      "inputTitle": "대출 정보 입력",
+      "repayType": "상환 방식",
+      "equalInstallment": "원리금균등",
+      "equalPrincipal": "원금균등",
+      "loanAmountLabel": "대출 원금 (원)",
+      "billionUnit": "억원",
+      "annualRate": "연 이자율 (%)",
+      "loanPeriod": "대출 기간",
+      "periodYear": "{{n}}년",
+      "periodMonth": "{{n}}개월",
+      "currencyUnit": "원",
+      "monthlyPaymentEqual": "월 납입액 (균등)",
+      "firstMonthPayment": "첫 달 납입액",
+      "loanPrincipal": "대출 원금",
+      "totalInterest": "총 이자",
+      "totalRepayment": "총 상환액",
+      "showSchedule": "▼ 상환 일정 보기",
+      "hideSchedule": "▲ 상환 일정 숨기기",
+      "scheduleMonth": "회차",
+      "schedulePayment": "납입액",
+      "schedulePrincipal": "원금",
+      "scheduleInterest": "이자",
+      "scheduleBalance": "잔액",
+      "disclaimer": "※ 실제 금융 상품에 따라 차이가 있을 수 있습니다. 중도상환수수료, 보증보험료 등 제외.",
+      "emptyPrompt": "정보를 입력하고\n계산하기를 누르세요"
+    },
+    "basicCalc": {
+      "divByZero": "0으로 나눌 수 없어요",
+      "backspace": "지우기",
+      "history": "계산 기록",
+      "historyEmpty": "계산 결과가 여기에 표시됩니다"
+    }
+  },
+  "fortune": {
+    "title": "오늘의 운세",
+    "subtitle": "12간지 띠별 운세",
+    "inputLabel": "태어난 년도",
+    "inputPlaceholder": "예: 1987",
+    "save": "저장",
+    "today": "오늘의 운세",
+    "weekly": "금주의 운세",
+    "monthly": "이번달 운세",
+    "overall": "총운",
+    "work": "업무운",
+    "money": "금전운",
+    "relations": "대인관계",
+    "animals": {
+      "rat": "쥐", "ox": "소", "tiger": "호랑이", "rabbit": "토끼",
+      "dragon": "용", "snake": "뱀", "horse": "말", "goat": "양",
+      "monkey": "원숭이", "rooster": "닭", "dog": "개", "pig": "돼지"
+    }
+  }
+}

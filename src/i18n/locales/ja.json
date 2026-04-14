@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "favorites": "お気に入り"
+  },
+  "categories": {
+    "text": "テキストツール",
+    "datetime": "日付・時間",
+    "converter": "変換ツール",
+    "dev": "開発ツール",
+    "calculator": "計算機",
+    "games": "チームゲーム"
+  },
+  "favorites": {
+    "title": "お気に入り",
+    "subtitle": "Favorites",
+    "empty": "☆ をクリックして\nお気に入りに追加"
+  },
+  "home": {
+    "hero_badge": "社会人必須ツール集",
+    "hero_title": "業務効率を上げる\n無料オンラインツール",
+    "hero_desc": "文字数カウント、給与計算、はしごゲームまで\n30種類以上のツールが一か所に",
+    "search_placeholder": "ツール検索... / Search tools... / 도구 검색",
+    "popular_tools": "人気ツール",
+    "all_categories": "全カテゴリ",
+    "game_banner_title": "チームゲームで会議を楽しく！",
+    "game_banner_desc": "はしごゲーム、ルーレット、チーム分け",
+    "game_banner_cta": "ゲームを見る",
+    "view_all": "すべて見る"
+  },
+  "category": {
+    "tools_count": "ツール",
+    "filter_all": "すべて",
+    "filter_popular": "🔥 人気",
+    "filter_niche": "⭐ ニッチ",
+    "filter_new": "🆕 新着",
+    "no_results": "該当するツールがありません。"
+  },
+  "badges": {
+    "popular": "人気",
+    "niche": "ニッチ",
+    "new": "新着"
+  },
+  "tools": {
+    "wordCounter":      { "name": "文字数カウンター",        "desc": "SNS・企画書の文字数をリアルタイムチェック" },
+    "caseConverter":    { "name": "大文字小文字変換",        "desc": "英語テキストのケース一括変換" },
+    "whitespace":       { "name": "空白除去ツール",          "desc": "不要なスペース・改行を一括削除" },
+    "emailFormatter":   { "name": "メール書式整理",          "desc": "ビジネスメールの形式を自動整理" },
+    "resumeFormatter":  { "name": "履歴書書式整理",          "desc": "履歴書テキストの形式統一" },
+    "meetingFormatter": { "name": "議事録整理",              "desc": "会議内容をきれいな形式に" },
+    "dday":             { "name": "D-Day計算機",             "desc": "目標日・締切日までの日数計算" },
+    "workHours":        { "name": "勤務時間計算機",          "desc": "出退勤・残業時間の自動計算" },
+    "timezone":         { "name": "世界時刻変換",            "desc": "グローバルチームとの会議時間調整" },
+    "pto":              { "name": "有給計算機",              "desc": "有給残日数・使用日数計算" },
+    "qrGenerator":      { "name": "QRコード生成器",         "desc": "URL・テキスト・WiFi QRコード生成" },
+    "base64":           { "name": "Base64変換器",            "desc": "テキスト・ファイルのBase64エンコード" },
+    "colorPalette":     { "name": "カラーパレット",          "desc": "HEX・RGB・HSL変換とパレット" },
+    "passwordGen":      { "name": "パスワード生成器",        "desc": "安全なランダムパスワードを即生成" },
+    "jsonFormatter":    { "name": "JSONフォーマッター",      "desc": "JSONの整形・検証・圧縮" },
+    "envGenerator":     { "name": ".envファイル生成器",      "desc": ".envテンプレートの自動生成" },
+    "readmeBuilder":    { "name": "READMEビルダー",          "desc": "GitHub READMEマークダウン作成" },
+    "cursorRules":      { "name": "Cursorルール生成器",      "desc": "AIコーディングルール生成" },
+    "unixTimestamp":    { "name": "Unixタイムスタンプ",      "desc": "Unixタイムスタンプ変換・計算" },
+    "regexVisualizer":  { "name": "正規表現ビジュアライザ",  "desc": "正規表現パターンのリアルタイムテスト" },
+    "salary":           { "name": "給与計算機",              "desc": "税金・社会保険控除後の手取り額" },
+    "overtime":         { "name": "残業代計算機",            "desc": "時間外・深夜・休日手当計算" },
+    "raiseCalc":        { "name": "昇給計算機",              "desc": "昇給前後の手取り額比較" },
+    "dutchPay":         { "name": "割り勘計算機",            "desc": "飲み会・経費を人数で割り勘" },
+    "freelanceRate":    { "name": "フリーランス単価計算",    "desc": "時給・日給・月給換算計算" },
+    "ladderGame":       { "name": "はしごゲーム",            "desc": "チーム配分、発表順を公平に" },
+    "roulette":         { "name": "ルーレット",              "desc": "ランチメニュー、当番をランダム選択" },
+    "teamSplitter":     { "name": "チーム分け",              "desc": "人数を均等にチーム分配" },
+    "lunchPicker":      { "name": "ランチ選択機",            "desc": "今日の昼食の悩みを解決" },
+    "luckyDraw":        { "name": "ラッキードロー",          "desc": "景品抽選、イベント当選者選定" },
+    "savingsCalc":      { "name": "預金・積立計算機",        "desc": "利子と満期受取額を計算" },
+    "loanCalc":         { "name": "ローン計算機",            "desc": "元利均等・元金均等返済計算" },
+    "unitConverter":    { "name": "単位変換器",              "desc": "長さ・重さ・温度・面積の変換" },
+    "basicCalculator":  { "name": "計算機",                  "desc": "四則演算電卓" }
+  },
+  "common": {
+    "copy": "コピー",
+    "copied": "コピーしました!",
+    "clear": "クリア",
+    "paste": "貼り付け",
+    "download": "ダウンロード",
+    "reset": "リセット",
+    "calculate": "計算する",
+    "result": "結果",
+    "back": "戻る",
+    "related_tools": "関連ツール"
+  },
+  "games": {
+    "lunchPicker": {
+      "menuList": "メニューリスト",
+      "addPlaceholder": "メニュー追加",
+      "reset": "デフォルトに戻す",
+      "save": "メニューを保存",
+      "saved": "保存しました!",
+      "pick": "選ぶ!",
+      "picking": "選んでいます...",
+      "pickPrompt": "ボタンを押して今日のランチを選びましょう！",
+      "todaysLunch": "今日のランチはこれ！🎉",
+      "again": "もう一度"
+    },
+    "roulette": {
+      "participants": "参加者リスト",
+      "namePlaceholder": "名前を入力",
+      "reset": "リセット",
+      "save": "保存",
+      "saved": "保存しました!",
+      "spin": "回す!",
+      "spinning": "回っています...",
+      "winner": "当選！"
+    },
+    "ladderGame": {
+      "count": "人数",
+      "participants": "参加者",
+      "results": "結果項目",
+      "generate": "はしごを生成",
+      "revealAll": "全結果公開",
+      "save": "保存",
+      "result": "結果",
+      "participantPlaceholder": "参加者",
+      "resultPlaceholder": "結果"
+    },
+    "teamSplitter": {
+      "participants": "参加者リスト",
+      "namePlaceholder": "1行に1名ずつ入力",
+      "hint": "改行で区切り・空行は無視されます",
+      "teamCount": "チーム数",
+      "split": "チーム分け！",
+      "reshuffle": "シャッフル",
+      "copy": "結果をコピー",
+      "copied": "コピーしました!",
+      "prompt": "チーム分けボタンを押してください！",
+      "team": "チーム",
+      "members": "人",
+      "save": "保存",
+      "saved": "保存しました!"
+    },
+    "luckyDraw": {
+      "participants": "参加者リスト",
+      "personUnit": "人",
+      "hint": "1行に1名ずつ入力",
+      "winnerCount": "当選者数",
+      "draw": "抽選する!",
+      "drawing": "抽選中...",
+      "announcement": "当選者発表！",
+      "rankUnit": "位",
+      "prompt": "抽選ボタンを押してください！",
+      "redraw": "再抽選",
+      "copyResult": "結果をコピー",
+      "winnersLabel": "当選者"
+    }
+  },
+  "guide": {
+    "title": "使い方ガイド",
+    "when": "こんな時に使えます",
+    "tips": "ヒント",
+    "faq": "よくある質問"
+  },
+  "text": {
+    "wordCounter": {
+      "chars": "文字数",
+      "words": "単語数",
+      "sentences": "文章数",
+      "lines": "行数",
+      "placeholder": "テキストを入力してください...",
+      "snsGuide": "SNS 文字数ガイド"
+    },
+    "caseConverter": {
+      "inputLabel": "入力テキスト",
+      "placeholder": "変換するテキストを入力...",
+      "selectMode": "変換方式を選択",
+      "outputLabel": "変換結果",
+      "outputPlaceholder": "上で変換方式を選んでください"
+    },
+    "whitespace": {
+      "options": "処理オプション",
+      "trimEdges": "前後の空白を削除",
+      "trimEdgesDesc": "各行および全体テキストの前後の空白を削除",
+      "collapseSpaces": "連続スペースを削除",
+      "collapseSpacesDesc": "連続するスペースを一つにまとめる",
+      "removeEmpty": "空行を削除",
+      "removeEmptyDesc": "内容のない空行をすべて削除",
+      "tabsToSpaces": "タブ → スペース変換",
+      "tabsToSpacesDesc": "タブ文字を半角スペース2つに変換",
+      "input": "入力",
+      "inputPlaceholder": "テキストを貼り付けてください...",
+      "output": "結果",
+      "outputPlaceholder": "処理結果がここに表示されます",
+      "removedChars": "-{{count}}文字削除"
+    },
+    "emailFormatter": {
+      "original": "元のメール",
+      "inputPlaceholder": "メール内容を貼り付けてください",
+      "format": "整理する",
+      "result": "整理結果"
+    },
+    "resumeFormatter": {
+      "original": "元の履歴書",
+      "inputPlaceholder": "履歴書テキストを貼り付けてください",
+      "format": "書式整理",
+      "result": "整理結果"
+    },
+    "meetingFormatter": {
+      "defaultTitle": "議事録",
+      "dateLabel": "日時",
+      "attendeesLabel": "参加者",
+      "agendaSection": "議題",
+      "notesSection": "議論内容",
+      "actionsSection": "アクションアイテム",
+      "titlePlaceholder": "会議タイトル",
+      "attendeesPlaceholder": "参加者（カンマ区切り）",
+      "agendaPlaceholder": "議題（改行で区切り）",
+      "notesPlaceholder": "議論内容",
+      "actionsPlaceholder": "アクションアイテム（改行で区切り）",
+      "generate": "議事録を生成",
+      "outputLabel": "議事録（マークダウン）"
+    }
+  },
+  "datetime": {
+    "dday": {
+      "addNew": "新しいD-Dayを追加",
+      "namePlaceholder": "イベント名（例：入社日、記念日）",
+      "add": "追加",
+      "errorName": "イベント名を入力してください。",
+      "errorDate": "日付を選んでください。",
+      "empty": "D-Dayはまだ追加されていません。上でイベントを追加してください！",
+      "pastDate": "過ぎた日",
+      "delete": "削除",
+      "today": "今日"
+    },
+    "workHours": {
+      "days": ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"],
+      "day1": "1日目",
+      "totalHours": "総勤務時間",
+      "regularHours": "正規勤務",
+      "overtime": "残業",
+      "overtimeLabel": "残業",
+      "zeroHours": "0時間",
+      "hoursMinutes": "{{hh}}時間{{mm}}分",
+      "hoursOnly": "{{hh}}時間",
+      "start": "出勤",
+      "end": "退勤",
+      "break": "休憩",
+      "breakMin": "{{m}}分",
+      "addDay": "日を追加",
+      "deleteDay": "削除"
+    },
+    "timezone": {
+      "live": "リアルタイム",
+      "custom": "時間指定",
+      "baseTime": "基準時間",
+      "hint": "カードをクリックするとハイライトを切り替えられます。ライブモードでは毎秒自動更新されます。",
+      "cities": {
+        "seoul": "ソウル (KST)",
+        "tokyo": "東京 (JST)",
+        "beijing": "北京 (CST)",
+        "newYork": "ニューヨーク (ET)",
+        "london": "ロンドン (GMT/BST)",
+        "paris": "パリ (CET)",
+        "losAngeles": "ロサンゼルス (PT)",
+        "sydney": "シドニー (AEDT)",
+        "singapore": "シンガポール (SGT)",
+        "dubai": "ドバイ (GST)"
+      }
+    },
+    "pto": {
+      "joinDate": "入社日",
+      "usedDays": "使用した有給（日）",
+      "extraDays": "追加有給（日）",
+      "tenure": "勤続{{years}}年{{months}}ヶ月・労働基準法基準",
+      "totalPTO": "総有給",
+      "usedPTO": "使用した有給",
+      "remainingPTO": "残り有給",
+      "days": "{{count}}日"
+    }
+  },
+  "calculator": {
+    "dutchPay": {
+      "basicSettings": "基本設定",
+      "totalAmountSymbol": "合計金額 ({{symbol}})",
+      "totalAmountSuffix": "合計金額 ({{suffix}})",
+      "baseParticipants": "基本人数",
+      "individualAdjustments": "個別調整",
+      "add": "追加",
+      "addHint": "個別金額を調整する参加者を追加してください",
+      "namePlaceholder": "名前",
+      "extra": "追加金額",
+      "totalAmount": "合計金額",
+      "splitDetails": "精算内訳",
+      "copyResult": "結果をコピー"
+    },
+    "overtimeCalc": {
+      "regularHours": "基本勤務時間",
+      "basicPay": "基本給",
+      "total": "合計"
+    },
+    "raiseCalc": {
+      "annualSalary": "現在の年収",
+      "annualSalarySymbol": "年収 ({{symbol}})",
+      "raiseRate": "昇給率",
+      "before": "昇給前",
+      "after": "昇給後",
+      "perMonthNet": "/月 手取り",
+      "annual": "年収",
+      "monthlyNetDiff": "月手取り差額"
+    },
+    "freelanceRate": {
+      "monthlyTargetSymbol": "月目標収入 ({{symbol}})",
+      "monthlyTargetSuffix": "月目標収入 ({{suffix}})",
+      "workingDays": "月稼働日数",
+      "workingHours": "1日の稼働時間",
+      "monthlyGross": "月給 (税前)",
+      "dailyRate": "日給",
+      "hourlyRate": "時給",
+      "monthlyAfterTax": "月手取り額 (税後)"
+    },
+    "savingsCalc": {
+      "inputTitle": "商品情報入力",
+      "productType": "商品種類",
+      "installment": "積立預金",
+      "deposit": "定期預金",
+      "interestType": "利子方式",
+      "simple": "単利",
+      "compound": "複利",
+      "principalLabel": "預入元本 (円)",
+      "monthlyDepositLabel": "月払込額 (円)",
+      "annualRate": "年利 (%)",
+      "period": "預入期間",
+      "periodYear": "{{n}}年",
+      "periodMonth": "{{n}}ヶ月",
+      "currencyUnit": "円",
+      "afterTaxMaturity": "税引後満期受取額",
+      "beforeTax": "税前",
+      "totalPrincipal": "払込元本",
+      "interestEarned": "利子収益",
+      "interestTax": "利子所得税 (20%)",
+      "afterTaxAmount": "税引後受取額",
+      "taxNote": "※ 利子所得税が適用されます。非課税商品は税前金額を参照してください。",
+      "emptyPrompt": "情報を入力して\n計算するを押してください"
+    },
+    "loanCalc": {
+      "inputTitle": "ローン情報入力",
+      "repayType": "返済方式",
+      "equalInstallment": "元利均等返済",
+      "equalPrincipal": "元金均等返済",
+      "loanAmountLabel": "借入元本 (円)",
+      "billionUnit": " 億円",
+      "annualRate": "年利 (%)",
+      "loanPeriod": "返済期間",
+      "periodYear": "{{n}}年",
+      "periodMonth": "{{n}}ヶ月",
+      "currencyUnit": "円",
+      "monthlyPaymentEqual": "月返済額 (均等)",
+      "firstMonthPayment": "初月返済額",
+      "loanPrincipal": "借入元本",
+      "totalInterest": "総利子",
+      "totalRepayment": "総返済額",
+      "showSchedule": "▼ 返済スケジュール表示",
+      "hideSchedule": "▲ 返済スケジュール非表示",
+      "scheduleMonth": "回",
+      "schedulePayment": "返済額",
+      "schedulePrincipal": "元金",
+      "scheduleInterest": "利子",
+      "scheduleBalance": "残高",
+      "disclaimer": "※ 実際の金融商品によって異なる場合があります。繰上返済手数料等除く。",
+      "emptyPrompt": "情報を入力して\n計算するを押してください"
+    },
+    "basicCalc": {
+      "divByZero": "0で割ることはできません",
+      "backspace": "削除",
+      "history": "計算履歴",
+      "historyEmpty": "計算結果がここに表示されます"
+    }
+  },
+  "fortune": {
+    "title": "今日の運勢",
+    "subtitle": "十二支の占い",
+    "inputLabel": "生まれた年",
+    "inputPlaceholder": "例: 1987",
+    "save": "保存",
+    "today": "今日の運勢",
+    "weekly": "今週の運勢",
+    "monthly": "今月の運勢",
+    "overall": "総運",
+    "work": "仕事運",
+    "money": "金運",
+    "relations": "対人関係",
+    "animals": {
+      "rat": "ねずみ", "ox": "うし", "tiger": "とら", "rabbit": "うさぎ",
+      "dragon": "たつ", "snake": "へび", "horse": "うま", "goat": "ひつじ",
+      "monkey": "さる", "rooster": "とり", "dog": "いぬ", "pig": "いのしし"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Users/jooyu/**)",
+      "Bash(cmd /c \"where npm\")",
+      "Bash(cmd /c \"where node\")",
+      "Bash(cmd /c \"where npm 2>&1\")",
+      "Bash(cmd /c where npm)",
+      "Bash(powershell -Command \"Get-Command npm -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell -Command \"Get-Command npm 2>&1\")",
+      "Read(//c//**)",
+      "Bash(find /c -name \"node.exe\" -maxdepth 6)",
+      "Bash(node -e ':*)",
+      "Bash(npx --yes node -e \"\")",
+      "Bash(python3 -c ':*)",
+      "Bash(npx tsc:*)",
+      "Bash(cmd.exe /c \"npx tsc --noEmit 2>&1\")",
+      "Bash(cmd.exe /c \"npx tsc --noEmit\")",
+      "Bash(cmd.exe /c \"cd \\\\\"D:\\\\0.주연 업무\\\\workkit\\\\\" && npx tsc --noEmit 2>&1\")",
+      "Bash(cmd.exe /c \"cd \\\\\"D:\\\\0.주연 업무\\\\workkit\\\\\" && npx tsc --noEmit > C:\\\\tmp\\\\tsc_out.txt 2>&1 && echo SUCCESS || echo ERRORS\")",
+      "Bash(cmd.exe /c \"cd \\\\\"D:\\\\0.주연 업무\\\\workkit\\\\\" && npx tsc --noEmit 1>C:\\\\tmp\\\\tsc_out.txt 2>&1\")",
+      "Read(//c/tmp/**)",
+      "Bash(cmd.exe /c \"cd /d \\\\\"D:\\\\0.주연 업무\\\\workkit\\\\\" && npx tsc --noEmit 2>&1 | findstr error\")",
+      "Bash(node -e \"const d=require\\('./src/i18n/locales/ko.json'\\); console.log\\(JSON.stringify\\(d.guide, null, 2\\)\\);\")",
+      "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.guide, null, 2\\)\\);\")",
+      "Bash(npm run:*)",
+      "Bash(grep -v \"SalaryCalculator\\\\|OvertimeCalculator\\\\|//.*[가-힣]\\\\|clipboard\\\\|denied\\\\|DutchPay\\\\|BasicCalculator\\\\|DDayCalculator\\\\|TimezoneConverter\\\\|CursorRules\\\\|JsonFormatter\\\\|ReadmeBuilder\\\\|UnixTimestamp\")"
+    ]
+  }
+}
