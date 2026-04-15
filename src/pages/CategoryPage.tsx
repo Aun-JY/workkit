@@ -3,6 +3,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Navbar } from '../components/layout/Navbar';
 import { Sidebar } from '../components/layout/Sidebar';
+import { Footer } from '../components/layout/Footer';
 import { ToolCard } from '../components/ui/ToolCard';
 import { ALL_TOOLS, CATEGORY_META, ToolCategory } from '../data/tools';
 import { usePageTitle } from '../hooks/usePageTitle';
@@ -119,6 +120,7 @@ export const CategoryPage: React.FC = () => {
 
       </div>
 
+      <Footer />
       <style>{`
         .tool-card:hover {
           box-shadow: 0 12px 28px rgba(255,107,43,0.10);

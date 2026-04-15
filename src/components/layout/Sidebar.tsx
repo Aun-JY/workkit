@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ALL_TOOLS, CATEGORY_META, ToolCategory } from '../../data/tools';
 import { useFavorites } from '../../store/useFavorites';
+import { useSidebar } from '../../store/useSidebar';
 import { StarButton } from '../ui/StarButton';
 import { AdSlot } from '../ui/AdSlot';
 
@@ -22,6 +23,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentToolId }) => {
   const { t } = useTranslation();
   const location = useLocation();
   const { favorites } = useFavorites();
+  const { isOpen, close } = useSidebar();
   const isFavorite = (id: string) => favorites.includes(id);
 
   const favTools = favorites
@@ -49,7 +51,26 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentToolId }) => {
     return () => el.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Close sidebar on route change (mobile)
+  useEffect(() => { close(); }, [location.pathname, close]);
+
   return (
+    <>
+      {/* Mobile backdrop */}
+      {isOpen && (
+        <div
+          onClick={close}
+          style={{
+            display: 'none',
+            position: 'fixed',
+            inset: 0,
+            top: '60px',
+            background: 'rgba(0,0,0,0.45)',
+            zIndex: 299,
+          }}
+          className="sidebar-backdrop"
+        />
+      )}
     <aside
       ref={asideRef}
       style={{
@@ -64,8 +85,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentToolId }) => {
         display: 'flex',
         flexDirection: 'column',
       }}
-      className="sidebar"
+      className={`sidebar${isOpen ? ' sidebar-open' : ''}`}
     >
+      {/* Mobile close button */}
+      <div className="sidebar-close-bar" style={{ display: 'none', justifyContent: 'space-between', alignItems: 'center', padding: '10px 14px 6px' }}>
+        <span style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, fontSize: '14px', color: 'var(--text)' }}>메뉴</span>
+        <button onClick={close} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '20px', color: 'var(--muted)', padding: '2px 6px' }}>✕</button>
+      </div>
+
       {/* Favorites */}
       <div style={{ padding: '10px 10px 6px' }}>
         {/* Header */}
@@ -239,22 +266,29 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentToolId }) => {
       </div>
 
       <style>{`
-        .sidebar-item-link:hover .sidebar-item {
-          background: var(--surface2);
-        }
-        .sidebar-item-link:hover .star-btn {
-          opacity: 1 !important;
-        }
-        .sidebar-cat-header:hover span {
-          color: var(--accent) !important;
-        }
-        .fav-item:hover {
-          background: rgba(245,158,11,0.15) !important;
-        }
+        .sidebar-item-link:hover .sidebar-item { background: var(--surface2); }
+        .sidebar-item-link:hover .star-btn { opacity: 1 !important; }
+        .sidebar-cat-header:hover span { color: var(--accent) !important; }
+        .fav-item:hover { background: rgba(245,158,11,0.15) !important; }
         @media (max-width: 768px) {
-          .sidebar { display: none !important; }
+          .sidebar {
+            position: fixed !important;
+            left: -300px !important;
+            top: 60px !important;
+            height: calc(100vh - 60px) !important;
+            z-index: 300 !important;
+            transition: left 0.25s ease !important;
+            box-shadow: none !important;
+          }
+          .sidebar.sidebar-open {
+            left: 0 !important;
+            box-shadow: 4px 0 24px rgba(0,0,0,0.18) !important;
+          }
+          .sidebar-backdrop { display: block !important; }
+          .sidebar-close-bar { display: flex !important; }
         }
       `}</style>
     </aside>
+    </>
   );
 };

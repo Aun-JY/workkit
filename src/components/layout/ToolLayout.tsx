@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Navbar } from './Navbar';
 import { Sidebar } from './Sidebar';
+import { Footer } from './Footer';
 import { CategoryTag } from '../ui/CategoryTag';
 import { AdSlot } from '../ui/AdSlot';
 import { ToolCard } from '../ui/ToolCard';
@@ -75,11 +76,10 @@ export const ToolLayout: React.FC<ToolLayoutProps> = ({
         </main>
       </div>
 
+      <Footer />
       <style>{`
         @media (max-width: 768px) {
-          .tool-layout-grid {
-            grid-template-columns: 1fr !important;
-          }
+          .tool-layout-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
     </>

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../../store/useLanguage';
+import { useSidebar } from '../../store/useSidebar';
 
 interface BreadcrumbItem {
   label: string;
@@ -24,8 +25,8 @@ export const Navbar: React.FC<NavbarProps> = ({ breadcrumbs }) => {
   const { t } = useTranslation();
   const { lang, setLang } = useLanguage();
   const location = useLocation();
-  const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const { toggle: toggleSidebar } = useSidebar();
   const langRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -180,74 +181,30 @@ export const Navbar: React.FC<NavbarProps> = ({ breadcrumbs }) => {
         )}
       </div>
 
-      {/* Hamburger — mobile */}
+      {/* Hamburger — mobile sidebar toggle */}
       <button
         className="hamburger-btn"
-        onClick={() => setMenuOpen(!menuOpen)}
+        onClick={toggleSidebar}
         style={{
           display: 'none',
           background: 'none',
           border: '2px solid var(--border)',
           borderRadius: '10px',
-          padding: '6px 10px',
+          padding: '6px 12px',
           cursor: 'pointer',
           fontSize: '18px',
+          color: 'var(--text)',
         }}
       >
-        {menuOpen ? '✕' : '☰'}
+        ☰
       </button>
-
-      {/* Mobile menu */}
-      {menuOpen && (
-        <div
-          style={{
-            position: 'absolute',
-            top: '60px',
-            left: 0,
-            right: 0,
-            background: 'var(--surface)',
-            borderBottom: '2px solid var(--border)',
-            padding: '16px 24px',
-            display: 'flex',
-            gap: '8px',
-            flexWrap: 'wrap',
-            zIndex: 200,
-          }}
-        >
-          {LANGS.map(({ code, label, flag }) => (
-            <button
-              key={code}
-              onClick={() => { setLang(code); setMenuOpen(false); }}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '6px',
-                background: lang === code ? 'var(--accent)' : 'transparent',
-                color: lang === code ? '#fff' : 'var(--muted)',
-                border: `2px solid ${lang === code ? 'var(--accent)' : 'var(--border)'}`,
-                borderRadius: '999px',
-                fontSize: '12px',
-                fontWeight: 700,
-                fontFamily: 'Nunito, sans-serif',
-                padding: '6px 14px',
-                cursor: 'pointer',
-              }}
-            >
-              <span>{flag}</span>
-              <span>{label}</span>
-            </button>
-          ))}
-        </div>
-      )}
 
       <style>{`
         @media (max-width: 768px) {
           .lang-dropdown { display: none !important; }
           .hamburger-btn { display: flex !important; }
         }
-        .lang-option:hover {
-          background: var(--surface2) !important;
-        }
+        .lang-option:hover { background: var(--surface2) !important; }
       `}</style>
     </nav>
   );

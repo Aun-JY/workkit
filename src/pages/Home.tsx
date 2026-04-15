@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Navbar } from '../components/layout/Navbar';
+import { Footer } from '../components/layout/Footer';
 import { ToolCard } from '../components/ui/ToolCard';
 import { AdSlot } from '../components/ui/AdSlot';
 import { StarButton } from '../components/ui/StarButton';
@@ -467,6 +468,7 @@ export const Home: React.FC = () => {
         </section>
       </div>
 
+      <Footer />
       <style>{`
         .mini-card:hover, .cat-card:hover {
           box-shadow: 0 12px 28px rgba(255,107,43,0.10);

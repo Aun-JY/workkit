@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "ホーム",
-    "favorites": "お気に入り"
+    "favorites": "お気に入り",
+    "menu": "メニュー"
   },
   "categories": {
     "text": "テキストツール",
@@ -374,6 +375,19 @@
       "history": "計算履歴",
       "historyEmpty": "計算結果がここに表示されます"
     }
+  },
+  "footer": {
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "about": "紹介・お問い合わせ",
+    "copyright": "© 2025 WorkKit. All rights reserved.",
+    "tagline": "ビジネスパーソンのための無料オンラインツール集"
+  },
+  "cookie": {
+    "message": "WorkKitはサービス提供および広告（Google AdSense）のためにCookieを使用します。",
+    "accept": "同意する",
+    "reject": "拒否",
+    "learnMore": "詳細を見る"
   },
   "fortune": {
     "title": "今日の運勢",

@@ -3,6 +3,10 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import { Home }               from './pages/Home';
 import { CategoryPage }       from './pages/CategoryPage';
+import { PrivacyPage }        from './pages/PrivacyPage';
+import { TermsPage }          from './pages/TermsPage';
+import { AboutPage }          from './pages/AboutPage';
+import { CookieBanner }       from './components/ui/CookieBanner';
 
 // Text tools
 import { WordCounter }        from './pages/tools/text/WordCounter';
@@ -55,9 +59,13 @@ import { LuckyDraw }          from './pages/tools/games/LuckyDraw';
 const App: React.FC = () => {
   return (
     <HashRouter>
+      <CookieBanner />
       <Routes>
         <Route path="/"                        element={<Home />} />
         <Route path="/category/:categoryId"    element={<CategoryPage />} />
+        <Route path="/privacy"                 element={<PrivacyPage />} />
+        <Route path="/terms"                   element={<TermsPage />} />
+        <Route path="/about"                   element={<AboutPage />} />
 
         {/* Text */}
         <Route path="/tools/word-counter"      element={<WordCounter />} />

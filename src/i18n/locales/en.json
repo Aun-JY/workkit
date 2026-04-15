@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "favorites": "Favorites"
+    "favorites": "Favorites",
+    "menu": "Menu"
   },
   "categories": {
     "text": "Text Tools",
@@ -374,6 +375,19 @@
       "history": "History",
       "historyEmpty": "Results will appear here"
     }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About & Contact",
+    "copyright": "© 2025 WorkKit. All rights reserved.",
+    "tagline": "Free online tools for office workers"
+  },
+  "cookie": {
+    "message": "WorkKit uses cookies for services and advertising (Google AdSense).",
+    "accept": "Accept",
+    "reject": "Reject",
+    "learnMore": "Learn more"
   },
   "fortune": {
     "title": "Daily Fortune",

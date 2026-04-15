@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "首页",
-    "favorites": "收藏"
+    "favorites": "收藏",
+    "menu": "菜单"
   },
   "categories": {
     "text": "文本工具",
@@ -374,6 +375,19 @@
       "history": "计算记录",
       "historyEmpty": "计算结果将显示在这里"
     }
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "about": "关于我们",
+    "copyright": "© 2025 WorkKit. All rights reserved.",
+    "tagline": "为职场人士提供的免费在线工具集"
+  },
+  "cookie": {
+    "message": "WorkKit使用Cookie提供服务和广告（Google AdSense）。",
+    "accept": "同意",
+    "reject": "拒绝",
+    "learnMore": "了解更多"
   },
   "fortune": {
     "title": "今日运势",

@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Inicio",
-    "favorites": "Favoritos"
+    "favorites": "Favoritos",
+    "menu": "Menú"
   },
   "categories": {
     "text": "Herramientas de texto",
@@ -374,6 +375,19 @@
       "history": "Historial",
       "historyEmpty": "Los resultados aparecerán aquí"
     }
+  },
+  "footer": {
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "about": "Acerca de y contacto",
+    "copyright": "© 2025 WorkKit. All rights reserved.",
+    "tagline": "Herramientas gratuitas online para trabajadores"
+  },
+  "cookie": {
+    "message": "WorkKit usa cookies para servicios y publicidad (Google AdSense).",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "learnMore": "Más información"
   },
   "fortune": {
     "title": "Horóscopo del día",
