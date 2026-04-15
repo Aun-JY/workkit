@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Home }               from './pages/Home';
 import { CategoryPage }       from './pages/CategoryPage';
@@ -60,7 +60,7 @@ import { LuckyDraw }          from './pages/tools/games/LuckyDraw';
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/workkit">
       <CookieBanner />
       <Routes>
         <Route path="/"                        element={<Home />} />
@@ -117,7 +117,7 @@ const App: React.FC = () => {
         <Route path="/tools/lunch-picker"      element={<LunchPicker />} />
         <Route path="/tools/lucky-draw"        element={<LuckyDraw />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
