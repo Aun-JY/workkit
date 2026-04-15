@@ -376,6 +376,14 @@
       "historyEmpty": "Los resultados aparecerán aquí"
     }
   },
+  "blog": {
+    "title": "Blog",
+    "tagline": "Consejos de Dev & Componentes UI",
+    "subtitle": "Compartiendo componentes UI, consejos de desarrollo y código de muestra.",
+    "readingTime": "{{n}} min de lectura",
+    "readMore": "Leer más",
+    "recentPosts": "Publicaciones recientes"
+  },
   "footer": {
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",

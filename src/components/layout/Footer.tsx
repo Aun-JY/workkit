@@ -20,6 +20,10 @@ export const Footer: React.FC = () => {
             <span style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, fontSize: '16px', color: 'var(--text)' }}>WorkKit</span>
           </Link>
           <span style={{ color: 'var(--border2)', fontSize: '13px' }}>|</span>
+          <Link to="/blog" style={{ color: 'var(--muted)', textDecoration: 'none', fontSize: '13px', fontFamily: 'Nunito, sans-serif', fontWeight: 600 }} className="footer-link">
+            {t('blog.title')}
+          </Link>
+          <span style={{ color: 'var(--border2)', fontSize: '13px' }}>·</span>
           <Link to="/privacy" style={{ color: 'var(--muted)', textDecoration: 'none', fontSize: '13px', fontFamily: 'Nunito, sans-serif', fontWeight: 600 }} className="footer-link">
             {t('footer.privacy')}
           </Link>

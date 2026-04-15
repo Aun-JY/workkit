@@ -376,6 +376,14 @@
       "historyEmpty": "계산 결과가 여기에 표시됩니다"
     }
   },
+  "blog": {
+    "title": "블로그",
+    "tagline": "개발 팁 & UI 컴포넌트",
+    "subtitle": "코딩하면서 유용한 UI 컴포넌트, 개발 팁, 샘플 코드를 공유합니다.",
+    "readingTime": "읽는 시간 {{n}}분",
+    "readMore": "자세히 보기",
+    "recentPosts": "최근 포스팅"
+  },
   "footer": {
     "privacy": "개인정보처리방침",
     "terms": "이용약관",

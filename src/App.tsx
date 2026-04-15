@@ -6,6 +6,8 @@ import { CategoryPage }       from './pages/CategoryPage';
 import { PrivacyPage }        from './pages/PrivacyPage';
 import { TermsPage }          from './pages/TermsPage';
 import { AboutPage }          from './pages/AboutPage';
+import { BlogListPage }       from './pages/blog/BlogListPage';
+import { FloatingButtonPost } from './pages/blog/posts/FloatingButtonPost';
 import { CookieBanner }       from './components/ui/CookieBanner';
 
 // Text tools
@@ -66,6 +68,8 @@ const App: React.FC = () => {
         <Route path="/privacy"                 element={<PrivacyPage />} />
         <Route path="/terms"                   element={<TermsPage />} />
         <Route path="/about"                   element={<AboutPage />} />
+        <Route path="/blog"                    element={<BlogListPage />} />
+        <Route path="/blog/floating-button"    element={<FloatingButtonPost />} />
 
         {/* Text */}
         <Route path="/tools/word-counter"      element={<WordCounter />} />

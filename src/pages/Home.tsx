@@ -9,6 +9,7 @@ import { StarButton } from '../components/ui/StarButton';
 import { ALL_TOOLS, CATEGORY_META, ToolCategory } from '../data/tools';
 import { useFavorites } from '../store/useFavorites';
 import { useUserProfile } from '../store/useUserProfile';
+import { BLOG_POSTS } from '../data/blogPosts';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 const CATEGORY_ORDER: ToolCategory[] = ['text', 'datetime', 'converter', 'dev', 'calculator', 'games'];
@@ -452,6 +453,35 @@ export const Home: React.FC = () => {
             </div>
           </section>
         )}
+
+        {/* Blog section */}
+        <section style={{ marginBottom: '48px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, fontSize: '22px', color: 'var(--text)' }}>
+              ✍️ {t('blog.title')}
+            </h2>
+            <Link to="/blog" style={{ textDecoration: 'none', fontFamily: 'Nunito, sans-serif', fontWeight: 700, fontSize: '13px', color: 'var(--accent)' }}>
+              {t('home.view_all')} →
+            </Link>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            {BLOG_POSTS.slice(0, 3).map(post => (
+              <Link key={post.slug} to={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+                <div className="blog-home-card" style={{ background: 'var(--surface)', border: '2px solid var(--border)', borderRadius: '16px', padding: '18px 20px', display: 'flex', alignItems: 'center', gap: '16px', transition: 'all 0.2s ease' }}>
+                  <div style={{ fontSize: '28px', width: '48px', height: '48px', background: 'var(--accent-soft)', border: '2px solid var(--accent-border)', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>{post.thumbnail}</div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                      <span style={{ fontSize: '11px', fontWeight: 700, color: 'var(--accent)', fontFamily: 'Nunito, sans-serif' }}>{post.category}</span>
+                      <span style={{ fontSize: '11px', color: 'var(--muted)' }}>· {post.date}</span>
+                    </div>
+                    <div style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 800, fontSize: '14px', color: 'var(--text)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{post.title}</div>
+                  </div>
+                  <span style={{ color: 'var(--accent)', fontSize: '16px', flexShrink: 0 }}>→</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         {/* Popular tools */}
         <section>

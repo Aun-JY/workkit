@@ -376,6 +376,14 @@
       "historyEmpty": "Results will appear here"
     }
   },
+  "blog": {
+    "title": "Blog",
+    "tagline": "Dev Tips & UI Components",
+    "subtitle": "Sharing useful UI components, dev tips, and sample code.",
+    "readingTime": "{{n}} min read",
+    "readMore": "Read more",
+    "recentPosts": "Recent Posts"
+  },
   "footer": {
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

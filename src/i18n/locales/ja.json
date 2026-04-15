@@ -376,6 +376,14 @@
       "historyEmpty": "計算結果がここに表示されます"
     }
   },
+  "blog": {
+    "title": "ブログ",
+    "tagline": "開発Tips & UIコンポーネント",
+    "subtitle": "UIコンポーネントや開発のヒント、サンプルコードを共有します。",
+    "readingTime": "約{{n}}分",
+    "readMore": "続きを読む",
+    "recentPosts": "最近の投稿"
+  },
   "footer": {
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",

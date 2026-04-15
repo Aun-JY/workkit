@@ -114,6 +114,25 @@ export const Navbar: React.FC<NavbarProps> = ({ breadcrumbs }) => {
 
       <div style={{ flex: 1 }} />
 
+      {/* Blog link — desktop */}
+      <Link
+        to="/blog"
+        className="nav-blog-link"
+        style={{
+          textDecoration: 'none',
+          fontFamily: 'Nunito, sans-serif',
+          fontWeight: 700,
+          fontSize: '14px',
+          color: location.pathname.startsWith('/blog') ? 'var(--accent)' : 'var(--muted)',
+          padding: '5px 10px',
+          borderRadius: '10px',
+          transition: 'color 0.15s',
+          whiteSpace: 'nowrap',
+        }}
+      >
+        ✍️ {t('blog.title')}
+      </Link>
+
       {/* Lang dropdown */}
       <div ref={langRef} style={{ position: 'relative' }} className="lang-dropdown">
         <button
@@ -202,8 +221,10 @@ export const Navbar: React.FC<NavbarProps> = ({ breadcrumbs }) => {
       <style>{`
         @media (max-width: 768px) {
           .lang-dropdown { display: none !important; }
+          .nav-blog-link { display: none !important; }
           .hamburger-btn { display: flex !important; }
         }
+        .nav-blog-link:hover { color: var(--accent) !important; }
         .lang-option:hover { background: var(--surface2) !important; }
       `}</style>
     </nav>

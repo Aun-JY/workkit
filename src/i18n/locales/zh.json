@@ -376,6 +376,14 @@
       "historyEmpty": "计算结果将显示在这里"
     }
   },
+  "blog": {
+    "title": "博客",
+    "tagline": "开发技巧 & UI组件",
+    "subtitle": "分享实用UI组件、开发技巧和示例代码。",
+    "readingTime": "{{n}}分钟阅读",
+    "readMore": "阅读更多",
+    "recentPosts": "最新文章"
+  },
   "footer": {
     "privacy": "隐私政策",
     "terms": "服务条款",
